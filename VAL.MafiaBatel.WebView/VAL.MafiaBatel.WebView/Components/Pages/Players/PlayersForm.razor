@@ -4,6 +4,7 @@
 @using VAL.MafiaBatel.Domain.Models
 @using VAL.MafiaBatel.Domain.Interfaces
 @inject IPlayerService PlayerService
+@inject IRoleService RoleService
 @inject NavigationManager NavManager
 
 <PageTitle>@(isNew ? "Adicionar Jogador" : "Editar Jogador")</PageTitle>
@@ -21,6 +22,18 @@
         <input type="text" @bind="playerName" class="form-control" />
     </div>
 
+    <div class="form-group">
+        <label>Personagem</label>
+        <select @bind="selectedRoleId" class="form-control">
+            <option value="99">Sem papel</option>
+            <option value="0">Cidadão</option>
+            @foreach (var role in roles)
+            {
+                <option value="@role.RoleId">@role.RoleName</option>
+            }
+        </select>
+    </div>
+
     <div class="form-actions">
         <button class="btn btn-success" @onclick="Salvar">Salvar</button>
         <button class="btn btn-secondary" @onclick="Cancelar">Cancelar</button>
@@ -34,9 +47,13 @@
     private Player player = new("", 0);
     private string playerName = "";
     private int playerNumber;
+    private int selectedRoleId = 0;
+    private List<Role> roles = new();
 
     protected override void OnInitialized()
     {
+        roles = RoleService.GetRoles();
+
         if (!isNew)
         {
             var existing = PlayerService.GetPlayers().FirstOrDefault(p => p.PlayerNumber == id);
@@ -45,6 +62,7 @@
                 player = existing;
                 playerName = player.Name;
                 playerNumber = player.PlayerNumber;
+                selectedRoleId = player.Role?.RoleId ?? 99;
             }
         }
     }
@@ -52,6 +70,29 @@
     private void Salvar()
     {
         player.UpdateInfo(playerName, playerNumber);
+        if (selectedRoleId == 0)
+        {
+            player.ResetRole();
+        }
+        else
+        {
+            Role role;
+            if (selectedRoleId == 0)
+            {
+                role = new Role(0, "Cidadão");
+            }
+            else
+            {
+                role = roles.FirstOrDefault(r => r.RoleId == selectedRoleId);
+                
+            }
+
+            if (role != null)
+            {
+                player.SetRole(role);
+            }
+        }
+
         if (isNew)
         {
             PlayerService.AddPlayer(player);

@@ -10,6 +10,7 @@
 <h3>Jogadores</h3>
 
 <button class="btn btn-primary" @onclick="AddNewPlayer">+ Novo Jogador</button>
+<button class="btn btn-primary" @onclick="CreatePlayersGroup">Criar grupo de jogo</button>
 
 <table class="table table-striped">
     <thead>
@@ -56,5 +57,11 @@
     private void EditPlayer(Player player)
     {
         NavManager.NavigateTo($"/players/edit/{player.PlayerNumber}");
+    }
+
+    private void CreatePlayersGroup()
+    {
+        PlayerService.CreatePlayersGroup();
+        players = PlayerService.GetPlayers();
     }
 }

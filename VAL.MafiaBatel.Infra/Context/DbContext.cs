@@ -8,6 +8,7 @@ namespace VAL.MafiaBatel.Infra.Context
         public Game? GameManagement { get; set; }
         public List<Player> PlayersList { get; set; } = [];
         public List<Role> RolesList { get; set; } = [];
+        public PlayerGroup? Group { get; set; }
 
         public DbContext()
         {

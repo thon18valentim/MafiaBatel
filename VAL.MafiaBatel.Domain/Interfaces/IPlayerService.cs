@@ -6,5 +6,6 @@ namespace VAL.MafiaBatel.Domain.Interfaces
     {
         List<Player> GetPlayers();
         void AddPlayer(Player player);
+        void CreatePlayersGroup();
     }
 }
