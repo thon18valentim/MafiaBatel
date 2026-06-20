@@ -1,4 +1,5 @@
 ﻿using VAL.MafiaBatel.Domain.Models.Voting;
+using Action = VAL.MafiaBatel.Domain.Models.Action;
 
 namespace VAL.MafiaBatel.Domain.Entities.Voting
 {
@@ -8,7 +9,21 @@ namespace VAL.MafiaBatel.Domain.Entities.Voting
 
         public List<VoteActionResult> Calculate()
         {
-            var actions = Votes.SelectMany(v => v.Actions.Select(a => a.Action).Distinct().ToList()).ToList();
+            //var actions = Votes.SelectMany(v => v.Actions.Select(a => a.Action).DistinctBy(a => a.ActionId).ToList()).ToList();
+            List<Action> actions = [];
+            foreach (var vt in Votes)
+            {
+                foreach (var ac in vt.Actions)
+                {
+                    if (actions.Any(c => c.ActionDescription == ac.Action.ActionDescription))
+                    {
+                        continue;
+                    }
+
+                    actions.Add(ac.Action);
+                }
+            }
+
             var voteActionResults = new List<VoteActionResult>();
 
             foreach (var action in actions)

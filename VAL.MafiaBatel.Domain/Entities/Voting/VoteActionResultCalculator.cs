@@ -36,7 +36,7 @@ namespace VAL.MafiaBatel.Domain.Entities.Voting
             // ordena os jogadores alvo por quantidade de votos
             var standings = new List<StandingItem>();
             var position = 1;
-            foreach (var targetPlayerVotes in targetPlayersVotes.OrderBy(tp => tp.Value).ToList())
+            foreach (var targetPlayerVotes in targetPlayersVotes.OrderByDescending(tp => tp.Value).ToList())
             {
                 standings.Add(new StandingItem(position, targetPlayerVotes.Key, targetPlayerVotes.Value));
                 position++;

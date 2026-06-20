@@ -19,13 +19,6 @@ namespace VAL.MafiaBatel.Infra.Context
         {
             GameManagement = new Game("Mafia Batel 2026");
 
-            PlayersList =
-            [
-                new Player("Othon Valentim", 1),
-                new Player("Bruno Benetti", 2),
-                new Player("Felipe Luiz", 3)
-            ];
-
             RolesList =
             [
                 new Role(1, "Máfia"),
