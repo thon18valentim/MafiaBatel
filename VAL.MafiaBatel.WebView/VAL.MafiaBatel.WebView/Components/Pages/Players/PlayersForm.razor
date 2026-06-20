@@ -1,0 +1,67 @@
+﻿@page "/players/new"
+@page "/players/edit/{id:int}"
+@rendermode InteractiveServer
+@using VAL.MafiaBatel.Domain.Models
+@using VAL.MafiaBatel.Domain.Interfaces
+@inject IPlayerService PlayerService
+@inject NavigationManager NavManager
+
+<PageTitle>@(isNew ? "Adicionar Jogador" : "Editar Jogador")</PageTitle>
+
+<h3>@(isNew ? "Novo Jogador" : "Editar Jogador")</h3>
+
+<div class="form-container">
+    <div class="form-group">
+        <label>Número</label>
+        <input type="number" @bind="playerNumber" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Nome</label>
+        <input type="text" @bind="playerName" class="form-control" />
+    </div>
+
+    <div class="form-actions">
+        <button class="btn btn-success" @onclick="Salvar">Salvar</button>
+        <button class="btn btn-secondary" @onclick="Cancelar">Cancelar</button>
+    </div>
+</div>
+
+@code {
+    [Parameter] public int? id { get; set; }
+
+    private bool isNew => !id.HasValue;
+    private Player player = new("", 0);
+    private string playerName = "";
+    private int playerNumber;
+
+    protected override void OnInitialized()
+    {
+        if (!isNew)
+        {
+            var existing = PlayerService.GetPlayers().FirstOrDefault(p => p.PlayerNumber == id);
+            if (existing != null)
+            {
+                player = existing;
+                playerName = player.Name;
+                playerNumber = player.PlayerNumber;
+            }
+        }
+    }
+
+    private void Salvar()
+    {
+        player.UpdateInfo(playerName, playerNumber);
+        if (isNew)
+        {
+            PlayerService.AddPlayer(player);
+        }
+
+        NavManager.NavigateTo("/players");
+    }
+
+    private void Cancelar()
+    {
+        NavManager.NavigateTo("/players");
+    }
+}

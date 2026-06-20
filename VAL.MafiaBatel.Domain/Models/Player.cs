@@ -21,5 +21,10 @@
         {
             Role = null;
         }
+
+        public string GetRoleName()
+        {
+            return Role?.RoleName ?? "Sem papel";
+        }
     }
 }

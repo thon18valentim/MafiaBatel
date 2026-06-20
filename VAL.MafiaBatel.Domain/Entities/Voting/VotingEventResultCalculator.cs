@@ -1,6 +1,6 @@
 ﻿using VAL.MafiaBatel.Domain.Models.Voting;
 
-namespace VAL.MafiaBatel.Domain.Entities
+namespace VAL.MafiaBatel.Domain.Entities.Voting
 {
     public class VotingEventResultCalculator(List<Vote> votes)
     {

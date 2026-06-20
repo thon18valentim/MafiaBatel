@@ -1,13 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.6.11819.183 stable
+VisualStudioVersion = 18.6.11819.183
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MafiaBatel", "MafiaBatel\MafiaBatel.csproj", "{AD0694CC-95E4-43DB-9D91-3F949A75C989}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VAL.MafiaBatel.Domain", "VAL.MafiaBatel.Domain\VAL.MafiaBatel.Domain.csproj", "{47194911-2427-46A5-9377-AAB3B6072FFA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Old", "Old", "{A599D465-9FFE-4329-B957-A150FD80828F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{1B994138-C67C-45BE-B90D-C96AE826A739}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VAL.MafiaBatel.WebView", "VAL.MafiaBatel.WebView\VAL.MafiaBatel.WebView\VAL.MafiaBatel.WebView.csproj", "{A0F86103-608E-4DAE-8C79-7A73CFE4271E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VAL.MafiaBatel.WebView.Client", "VAL.MafiaBatel.WebView\VAL.MafiaBatel.WebView.Client\VAL.MafiaBatel.WebView.Client.csproj", "{85CCC6F7-3067-4EB8-A808-37EBB9D4993C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VAL.MafiaBatel.Services", "VAL.MafiaBatel.Services\VAL.MafiaBatel.Services.csproj", "{8107A0B1-4D38-413D-AC76-2BF804A3D3AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VAL.MafiaBatel.Infra", "VAL.MafiaBatel.Infra\VAL.MafiaBatel.Infra.csproj", "{860716DC-6E0C-459B-85F4-237CF4612FFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +33,30 @@ Global
 		{47194911-2427-46A5-9377-AAB3B6072FFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47194911-2427-46A5-9377-AAB3B6072FFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47194911-2427-46A5-9377-AAB3B6072FFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0F86103-608E-4DAE-8C79-7A73CFE4271E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0F86103-608E-4DAE-8C79-7A73CFE4271E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0F86103-608E-4DAE-8C79-7A73CFE4271E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0F86103-608E-4DAE-8C79-7A73CFE4271E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85CCC6F7-3067-4EB8-A808-37EBB9D4993C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85CCC6F7-3067-4EB8-A808-37EBB9D4993C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85CCC6F7-3067-4EB8-A808-37EBB9D4993C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85CCC6F7-3067-4EB8-A808-37EBB9D4993C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8107A0B1-4D38-413D-AC76-2BF804A3D3AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8107A0B1-4D38-413D-AC76-2BF804A3D3AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8107A0B1-4D38-413D-AC76-2BF804A3D3AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8107A0B1-4D38-413D-AC76-2BF804A3D3AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{860716DC-6E0C-459B-85F4-237CF4612FFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{860716DC-6E0C-459B-85F4-237CF4612FFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{860716DC-6E0C-459B-85F4-237CF4612FFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{860716DC-6E0C-459B-85F4-237CF4612FFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{AD0694CC-95E4-43DB-9D91-3F949A75C989} = {A599D465-9FFE-4329-B957-A150FD80828F}
+		{A0F86103-608E-4DAE-8C79-7A73CFE4271E} = {1B994138-C67C-45BE-B90D-C96AE826A739}
+		{85CCC6F7-3067-4EB8-A808-37EBB9D4993C} = {1B994138-C67C-45BE-B90D-C96AE826A739}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DFD0E844-C8B1-4DD5-BA5B-9934350474C3}

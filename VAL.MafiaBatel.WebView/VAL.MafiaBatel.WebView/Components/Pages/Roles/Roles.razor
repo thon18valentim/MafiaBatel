@@ -1,0 +1,35 @@
+﻿@page "/roles"
+@using VAL.MafiaBatel.Domain.Models
+@using VAL.MafiaBatel.Domain.Interfaces
+@inject IRoleService RoleService
+
+<PageTitle>Personagens</PageTitle>
+
+<h3>Personagens</h3>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nome</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var role in roles)
+        {
+            <tr>
+                <td>@role.RoleId</td>
+                <td>@role.RoleName</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    private List<Role> roles = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        roles = RoleService.GetRoles();
+    }
+}

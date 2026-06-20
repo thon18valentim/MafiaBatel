@@ -1,0 +1,60 @@
+﻿@page "/players"
+@using VAL.MafiaBatel.Domain.Models
+@using VAL.MafiaBatel.Domain.Interfaces
+@inject IPlayerService PlayerService
+@inject NavigationManager NavManager
+@rendermode InteractiveServer
+
+<PageTitle>Jogadores</PageTitle>
+
+<h3>Jogadores</h3>
+
+<button class="btn btn-primary" @onclick="AddNewPlayer">+ Novo Jogador</button>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Número</th>
+            <th>Nome</th>
+            <th>Papel</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var player in players)
+        {
+            <tr>
+                <td>@player.PlayerNumber</td>
+                <td>@player.Name</td>
+                <td>@player.GetRoleName()</td>
+                <td>
+                    <button class="btn btn-sm btn-warning" 
+                            @onclick="() => EditPlayer(player)">
+                        Editar
+                    </button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    private List<Player> players = new();
+    private Player? selectedPlayer;
+    private bool showForm = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        players = PlayerService.GetPlayers();
+    }
+
+    private void AddNewPlayer()
+    {
+        NavManager.NavigateTo("/players/new");
+    }
+
+    private void EditPlayer(Player player)
+    {
+        NavManager.NavigateTo($"/players/edit/{player.PlayerNumber}");
+    }
+}

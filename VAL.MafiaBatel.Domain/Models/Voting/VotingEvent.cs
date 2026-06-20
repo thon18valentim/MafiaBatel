@@ -1,7 +1,6 @@
-﻿using VAL.MafiaBatel.Domain.Entities;
-using VAL.MafiaBatel.Domain.Models.Voting;
+﻿using VAL.MafiaBatel.Domain.Entities.Voting;
 
-namespace VAL.MafiaBatel.Domain.Models
+namespace VAL.MafiaBatel.Domain.Models.Voting
 {
     public class VotingEvent(string eventName, string eventDescription)
     {
