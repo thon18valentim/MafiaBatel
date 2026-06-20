@@ -1,0 +1,87 @@
+﻿@page "/vote/{eventId:guid}/results"
+@using VAL.MafiaBatel.Domain.Models
+@using VAL.MafiaBatel.Domain.Models.Voting
+@using VAL.MafiaBatel.Domain.Interfaces
+@using Action = VAL.MafiaBatel.Domain.Models.Action;
+@inject IVotingService VotingService
+@inject IPlayerService PlayerService
+@rendermode InteractiveServer
+@inject NavigationManager NavManager
+
+<PageTitle>Resultados da votação</PageTitle>
+<h3>Resutados da votação @eventId</h3>
+
+<button class="btn btn-primary" @onclick="CalculateResults">Calcular resultados</button>
+
+@foreach (var eventResult in eventResults)
+{
+    <h5>@GetActionDescription(@eventResult.ActionId)</h5>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Posição</th>
+                <th>Jogador</th>
+                <th>Votos</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var standing in eventResult.Standings)
+            {
+                <tr>
+                    <td>@standing.Position</td>
+                    <td>@GetPlayer(@standing.PlayerNumber)</td>
+                    <td>@standing.Votes</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<button class="btn btn-primary" @onclick="Back">Voltar</button>
+
+@code {
+    [Parameter] public Guid eventId { get; set; }
+
+    private VotingEvent votingEvent;
+    private List<VoteActionResult> eventResults = [];
+    private List<Player> players = new();
+    private List<Action> actions = new();
+
+    protected override void OnInitialized()
+    {
+        votingEvent = VotingService.GetVotingEventById(eventId)!;
+        players = PlayerService.GetPlayers();
+        actions = VotingService.GetAvailableActions();
+
+        var votingEventResults = VotingService.GetEventResults(eventId);
+        if (votingEventResults != null)
+        {
+            var results = votingEventResults.VoteActionResults;
+            eventResults = results;
+        }
+    }
+
+    private void CalculateResults()
+    {
+        var votingEventResults = votingEvent.CalculateResults();
+        var results = votingEventResults.VoteActionResults;
+
+        eventResults = results;
+        VotingService.SaveEventResults(votingEventResults);
+    }
+
+    private string GetActionDescription(Guid actionId)
+    {
+        return actions.FirstOrDefault(ac => ac.ActionId == actionId)!.ActionDescription;
+    }
+
+    private string GetPlayer(int playerNumber)
+    {
+        return players.FirstOrDefault(pl => pl.PlayerNumber == playerNumber)!.ToString();
+    }
+
+    private void Back()
+    {
+        NavManager.NavigateTo("/vote");
+    }
+}

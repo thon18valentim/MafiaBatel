@@ -1,0 +1,80 @@
+{
+  "GameManagement": {
+    "GameId": "f8e639d6-67a9-4394-8c1f-05ecba87c491",
+    "GameName": "Mafia Batel 2026",
+    "VotingEvents": []
+  },
+  "PlayersList": [
+    {
+      "Name": "Othon Valentim",
+      "PlayerNumber": 1,
+      "Role": null
+    },
+    {
+      "Name": "Bruno Benetti",
+      "PlayerNumber": 2,
+      "Role": null
+    },
+    {
+      "Name": "Felipe Luiz",
+      "PlayerNumber": 3,
+      "Role": null
+    },
+    {
+      "Name": "Todinho",
+      "PlayerNumber": 4,
+      "Role": null
+    }
+  ],
+  "RolesList": [
+    {
+      "RoleId": 1,
+      "RoleName": "M\u00E1fia"
+    },
+    {
+      "RoleId": 2,
+      "RoleName": "Pol\u00EDcia"
+    },
+    {
+      "RoleId": 3,
+      "RoleName": "Justiceiro"
+    },
+    {
+      "RoleId": 4,
+      "RoleName": "Anjo"
+    },
+    {
+      "RoleId": 5,
+      "RoleName": "Detetive"
+    }
+  ],
+  "Group": null,
+  "VotingEvents": [],
+  "Actions": [
+    {
+      "ActionId": "371f8acf-9b93-426f-8f2e-2724e2b9cd0b",
+      "ActionDescription": "Prender"
+    },
+    {
+      "ActionId": "a64d5239-e82c-427e-922f-8e2a549812c1",
+      "ActionDescription": "Sequestrar"
+    },
+    {
+      "ActionId": "685a4ef4-c23e-4371-b4e9-45a69851a357",
+      "ActionDescription": "Imunizar"
+    },
+    {
+      "ActionId": "51374c02-7f14-48bd-b2ed-9cd60d7dad5c",
+      "ActionDescription": "Soltar"
+    },
+    {
+      "ActionId": "fd1d1898-4bba-411e-9004-ef54045ae3db",
+      "ActionDescription": "Resgatar"
+    },
+    {
+      "ActionId": "273dd120-aa43-469c-b83c-93a601a0d7bb",
+      "ActionDescription": "Vingar"
+    }
+  ],
+  "Results": []
+}

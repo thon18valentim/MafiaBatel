@@ -5,5 +5,7 @@ namespace VAL.MafiaBatel.Domain.Interfaces
     public interface IGameService
     {
         Game GetCurrentGame();
+        void SaveGame();
+        void LoadGame();
     }
 }

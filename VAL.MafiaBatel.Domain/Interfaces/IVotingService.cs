@@ -9,5 +9,7 @@ namespace VAL.MafiaBatel.Domain.Interfaces
         void CreateVotingEvent(VotingEvent votingEvent);
         VotingEvent? GetVotingEventById(Guid eventId);
         List<Action> GetAvailableActions();
+        void SaveEventResults(VotingEventResult eventResults);
+        VotingEventResult? GetEventResults(Guid eventId);
     }
 }

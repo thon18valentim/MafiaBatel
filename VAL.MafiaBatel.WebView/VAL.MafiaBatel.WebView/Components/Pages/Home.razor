@@ -1,7 +1,21 @@
 ﻿@page "/"
+@using VAL.MafiaBatel.Domain.Interfaces
+@inject IGameService GameService
+@rendermode InteractiveServer
 
-<PageTitle>Home</PageTitle>
+<PageTitle>Painel</PageTitle>
 
-<h1>Hello, world!</h1>
+<button class="btn btn-primary" @onclick="SaveGame">Salvar</button>
+<button class="btn btn-primary" @onclick="LoadGame">Carregar</button>
 
-Welcome to your new app.
+@code {
+    private void SaveGame()
+    {
+        GameService.SaveGame();
+    }
+
+    private void LoadGame()
+    {
+        GameService.LoadGame();
+    }
+}

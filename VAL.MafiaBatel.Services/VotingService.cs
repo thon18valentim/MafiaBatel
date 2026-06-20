@@ -26,5 +26,21 @@ namespace VAL.MafiaBatel.Services
         {
             return dbContext.Actions;
         }
+
+        public void SaveEventResults(VotingEventResult eventResults)
+        {
+            var result = dbContext.Results.FirstOrDefault(rs => rs.EventId == eventResults.EventId);
+            if (result == null)
+            {
+                dbContext.Results.Add(eventResults);
+            }
+
+            result = eventResults;
+        }
+
+        public VotingEventResult? GetEventResults(Guid eventId)
+        {
+            return dbContext.Results.FirstOrDefault(rs => rs.EventId == eventId);
+        }
     }
 }
