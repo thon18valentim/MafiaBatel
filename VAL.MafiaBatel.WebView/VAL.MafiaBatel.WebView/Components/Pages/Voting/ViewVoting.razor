@@ -1,0 +1,79 @@
+﻿@page "/vote/{eventId:guid}"
+@using VAL.MafiaBatel.Domain.Models
+@using VAL.MafiaBatel.Domain.Models.Voting
+@using VAL.MafiaBatel.Domain.Interfaces
+@using VAL.MafiaBatel.WebView.DTOs
+@inject IVotingService VotingService
+@inject IPlayerService PlayerService
+@rendermode InteractiveServer
+@inject NavigationManager NavManager
+
+<PageTitle>Visualização da Votação</PageTitle>
+<h3>Votação @eventId</h3>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Jogador</th>
+            <th>Ação</th>
+            <th>Alvo</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var dto in voteDtos)
+        {
+            <tr>
+                <td>@dto.VoteId</td>
+                <td>@dto.Player</td>
+                <td>@dto.ActionDescription</td>
+                <td>@dto.TargetPlayer</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<button class="btn btn-primary" @onclick="Back">Voltar</button>
+
+@code {
+    [Parameter] public Guid eventId { get; set; }
+    private List<Player> players = new();
+    private VotingEvent votingEvent;
+    private List<VoteDTO> voteDtos = new();
+
+    protected override void OnInitialized()
+    {
+        players = PlayerService.GetPlayers();
+        votingEvent = VotingService.GetVotingEventById(eventId)!;
+        voteDtos = LoadVotes();
+    }
+
+    private List<VoteDTO> LoadVotes()
+    {
+        var votes = votingEvent.Votes;
+        var dtos = new List<VoteDTO>();
+        foreach (var vote in votes)
+        {
+            var player = players.FirstOrDefault(pl => pl.PlayerNumber == vote.PlayerNumber);
+            if (player == null)
+            {
+                continue;
+            }
+
+            foreach (var vtAction in vote.Actions)
+            {
+                var targetPlayer = players.FirstOrDefault(pl => pl.PlayerNumber == vtAction.TargetPlayerNumber);
+
+                var dto = new VoteDTO(vote.VoteId, player.ToString(), vtAction.Action.ActionDescription, targetPlayer.ToString());
+                dtos.Add(dto);
+            }
+        }
+
+        return dtos;
+    }
+
+    private void Back()
+    {
+        NavManager.NavigateTo("/vote");
+    }
+}
