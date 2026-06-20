@@ -1,0 +1,60 @@
+﻿@using Action = VAL.MafiaBatel.Domain.Models.Action;
+@using VAL.MafiaBatel.Domain.Models
+@using VAL.MafiaBatel.Domain.Interfaces
+@using VAL.MafiaBatel.Domain.Models.Voting
+@inject IVotingService VotingService
+@inject IPlayerService PlayerService
+
+<div class="form-container">
+    <h4>Adicionar nova ação</h4>
+
+    <div class="form-group">
+        <label>Ação</label>
+        <select @bind="selectedActionId" class="form-select">
+            @foreach (var action in actions)
+            {
+                <option value="@action.ActionId">@action.ActionDescription</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Alvo</label>
+        <select @bind="targetPlayerNumber" class="form-select">
+            @foreach (var player in players)
+            {
+                <option value="@player.PlayerNumber">@player.ToString()</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-actions">
+        <button class="btn btn-success" @onclick="() => Salvar()">Salvar</button>
+        <button class="btn btn-secondary" @onclick="() => OnCancel.InvokeAsync()">Cancelar</button>
+    </div>
+</div>
+
+@code {
+    [Parameter] public EventCallback<VoteAction> OnSave { get; set; }
+    [Parameter] public EventCallback OnCancel { get; set; }
+
+    private List<Action> actions = new();
+    private List<Player> players = new();
+
+    private Guid selectedActionId;
+    private int targetPlayerNumber;
+
+    protected override void OnInitialized()
+    {
+        actions = VotingService.GetAvailableActions();
+        players = PlayerService.GetPlayers();
+    }
+
+    private async Task Salvar()
+    {
+        var action = actions.FirstOrDefault(ac => ac.ActionId == selectedActionId);
+        var voteAction = new VoteAction(action!, targetPlayerNumber);
+
+        await OnSave.InvokeAsync(voteAction);
+    }
+}

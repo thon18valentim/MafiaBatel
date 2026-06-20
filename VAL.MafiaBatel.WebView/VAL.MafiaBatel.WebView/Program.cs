@@ -14,6 +14,8 @@ builder.Services.AddRazorComponents()
 builder.Services.AddSingleton<DbContext>();
 builder.Services.AddScoped<IPlayerService, PlayerService>();
 builder.Services.AddScoped<IRoleService, RoleService>();
+builder.Services.AddScoped<IGameService, GameService>();
+builder.Services.AddScoped<IVotingService, VotingService>();
 
 var app = builder.Build();
 

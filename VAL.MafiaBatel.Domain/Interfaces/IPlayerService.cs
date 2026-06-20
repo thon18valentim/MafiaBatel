@@ -5,6 +5,7 @@ namespace VAL.MafiaBatel.Domain.Interfaces
     public interface IPlayerService
     {
         List<Player> GetPlayers();
+        Player? GetPlayer(int playerNumber);
         void AddPlayer(Player player);
         void CreatePlayersGroup();
     }

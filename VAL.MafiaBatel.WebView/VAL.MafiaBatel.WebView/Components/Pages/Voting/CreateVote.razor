@@ -1,0 +1,51 @@
+﻿@page "/vote/new-event"
+@using VAL.MafiaBatel.Domain.Interfaces
+@inject IVotingService VotingService
+@inject IGameService GameService
+@rendermode InteractiveServer
+@inject NavigationManager NavManager
+
+<PageTitle>Criar Votação</PageTitle>
+<h3>Criar Votação</h3>
+
+<div class="form-container">
+    <div class="input-group input-group-sm mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-sm">Nome</span>
+        <input type="text" class="form-control" aria-label="Nome" aria-describedby="inputGroup-sizing-sm", @bind="name">
+    </div>
+
+    <div class="input-group">
+        <span class="input-group-text">Descrição</span>
+        <textarea class="form-control" aria-label="Descrição" @bind="description"></textarea>
+    </div>
+
+    <div class="form-actions">
+        <button class="btn btn-success" @onclick="Salvar">Salvar</button>
+        <button class="btn btn-secondary" @onclick="Cancelar">Cancelar</button>
+    </div>
+</div>
+
+@code {
+    private string name = "";
+    private string description = "";
+
+    private void Salvar()
+    {
+        if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(description))
+        {
+            // Handle validation error (e.g., show a message to the user)
+            return;
+        }
+
+        var currentGame = GameService.GetCurrentGame();
+        var votingEvent = currentGame.CreateVotingEvent(name, description);
+
+        VotingService.CreateVotingEvent(votingEvent);
+        NavManager.NavigateTo("/vote");
+    }
+
+    private void Cancelar()
+    {
+        NavManager.NavigateTo("/vote");
+    }
+}

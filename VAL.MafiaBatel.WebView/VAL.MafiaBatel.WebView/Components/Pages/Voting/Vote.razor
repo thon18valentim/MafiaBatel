@@ -1,0 +1,80 @@
+﻿@page "/vote"
+@using VAL.MafiaBatel.Domain.Models.Voting
+@using VAL.MafiaBatel.Domain.Interfaces
+@inject IVotingService VotingService
+@inject IGameService GameService
+@inject NavigationManager NavManager
+@rendermode InteractiveServer
+
+<PageTitle>Votações</PageTitle>
+
+<h3>Votações</h3>
+
+<button class="btn btn-primary" @onclick="CreateNewVotingEvent">Criar nova votação</button>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Descrição</th>
+            <th>Número de Votos</th>
+            <th>DtCpu</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var voting in votings)
+        {
+            <tr>
+                <td>@voting.EventName</td>
+                <td>@voting.EventDescription</td>
+                <td>@voting.Votes.Count</td>
+                <td>@voting.CreatedAt</td>
+                <td>
+                    <button class="btn btn-sm btn-warning"
+                            @onclick="() => AddNewVote(voting.EventId)">
+                        Novo Voto
+                    </button>
+                    <button class="btn btn-sm btn-warning"
+                            @onclick="() => ViewVoting(voting.EventId)">
+                        Visualizar
+                    </button>
+                    <button class="btn btn-sm btn-warning"
+                            @onclick="() => ViewResults(voting.EventId)">
+                        Resultados
+                    </button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    private List<VotingEvent> votings = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var currentGame = GameService.GetCurrentGame();
+        votings = VotingService.GetVotingEvents(currentGame.GameId);
+    }
+
+    private void CreateNewVotingEvent()
+    {
+        NavManager.NavigateTo("/vote/new-event");
+    }
+
+    private void AddNewVote(Guid eventId)
+    {
+        NavManager.NavigateTo($"/vote/{eventId}/new");
+    }
+
+    private void ViewVoting(Guid eventId)
+    {
+        
+    }
+
+    private void ViewResults(Guid eventId)
+    {
+
+    }
+}

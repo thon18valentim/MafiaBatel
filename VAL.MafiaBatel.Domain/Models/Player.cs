@@ -26,5 +26,10 @@
         {
             return Role?.RoleName ?? "Sem papel";
         }
+
+        public override string ToString()
+        {
+            return $"{PlayerNumber} - {Name} - {GetRoleName()}";
+        }
     }
 }

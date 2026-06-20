@@ -1,0 +1,115 @@
+﻿@page "/vote/{eventId:guid}/new"
+@using VAL.MafiaBatel.Domain.Models
+@using VAL.MafiaBatel.Domain.Models.Voting
+@using VAL.MafiaBatel.Domain.Interfaces
+@inject IVotingService VotingService
+@inject IGameService GameService
+@inject IPlayerService PlayerService
+@rendermode InteractiveServer
+@inject NavigationManager NavManager
+
+<PageTitle>Adicionar Voto</PageTitle>
+<h3>Adicionar novo Voto</h3>
+
+<div class="form-container">
+    <label>Quem está votando?</label>
+    <select @bind="selectedPlayerNumber" class="form-select" aria-label="SelecaoDeJogador">
+        <option selected>Selecione um jogador</option>
+        @foreach (var player in players)
+        {
+            <option value="@player.PlayerNumber">@player.ToString()</option>
+        }
+    </select>
+
+    <button class="btn btn-primary" @onclick="AddAction">Adicionar ação</button>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Descrição</th>
+                <th>Alvo</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var voteAction in voteActions)
+            {
+                <tr>
+                    <td>@voteAction.Action.ActionDescription</td>
+                    <td>@GetPlayer(voteAction.TargetPlayerNumber)</td>
+                    <td>
+                        <button class="btn btn-sm btn-warning"
+                                @onclick="() => RemoveVoteAction(voteAction)">
+                            Remover
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    @if (showActionForm)
+    {
+        <AddVoteActionForm OnSave="SaveVoteAction" OnCancel="CancelAction" />
+    }
+
+    <div class="form-actions">
+        <button class="btn btn-success" @onclick="Finish">Finalizar</button>
+        <button class="btn btn-success" @onclick="Cancel">Cancelar</button>
+    </div>
+</div>
+
+@code {
+    [Parameter] public Guid eventId { get; set; }
+    private int selectedPlayerNumber;
+    private List<Player> players = new();
+    private VotingEvent votingEvent;
+
+    private bool showActionForm = false;
+    private List<VoteAction> voteActions = [];
+    private Guid selectedActionId;
+
+    protected override void OnInitialized()
+    {
+        players = PlayerService.GetPlayers();
+        votingEvent = VotingService.GetVotingEventById(eventId)!;
+    }
+
+    private void AddAction()
+    {
+        showActionForm = true;
+    }
+
+    private void CancelAction()
+    {
+        showActionForm = false;
+    }
+
+    private void SaveVoteAction(VoteAction voteAction)
+    {
+        voteActions.Add(voteAction);
+    }
+
+    private void Finish()
+    {
+        var vote = new Voto(selectedPlayerNumber, voteActions);
+        votingEvent.AddVote(vote);
+
+        NavManager.NavigateTo("/vote");
+    }
+
+    private void Cancel()
+    {
+        NavManager.NavigateTo("/vote");
+    }
+
+    private Player GetPlayer(int playerNumber)
+    {
+        return PlayerService.GetPlayer(playerNumber)!;
+    }
+
+    private void RemoveVoteAction(VoteAction voteAction)
+    {
+        voteActions.Remove(voteAction);
+    }
+}

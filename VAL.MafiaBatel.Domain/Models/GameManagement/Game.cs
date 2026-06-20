@@ -10,7 +10,7 @@ namespace VAL.MafiaBatel.Domain.Models.GameManagement
 
         public VotingEvent CreateVotingEvent(string eventName, string eventDescription)
         {
-            var votingEvent = new VotingEvent(eventName, eventDescription);
+            var votingEvent = new VotingEvent(GameId, eventName, eventDescription);
             VotingEvents.Add(votingEvent);
 
             return votingEvent;

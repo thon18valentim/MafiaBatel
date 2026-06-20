@@ -2,9 +2,9 @@
 
 namespace VAL.MafiaBatel.Domain.Entities.Voting
 {
-    public class VotingEventResultCalculator(List<Vote> votes)
+    public class VotingEventResultCalculator(List<Voto> votes)
     {
-        public List<Vote> Votes { get; private set; } = votes;
+        public List<Voto> Votes { get; private set; } = votes;
 
         public List<VoteActionResult> Calculate()
         {

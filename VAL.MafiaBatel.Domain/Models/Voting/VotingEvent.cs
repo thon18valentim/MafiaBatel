@@ -2,15 +2,16 @@
 
 namespace VAL.MafiaBatel.Domain.Models.Voting
 {
-    public class VotingEvent(string eventName, string eventDescription)
+    public class VotingEvent(Guid gameId, string eventName, string eventDescription)
     {
+        public Guid GameId { get; set; } = gameId;
         public Guid EventId { get; private set; } = Guid.NewGuid();
         public string EventName { get; private set; } = eventName;
         public string EventDescription { get; private set; } = eventDescription;
-        public List<Vote> Votes { get; private set; } = [];
+        public List<Voto> Votes { get; private set; } = [];
         public DateTime CreatedAt { get; private set; } = DateTime.Now;
 
-        public void AddVote(Vote vote)
+        public void AddVote(Voto vote)
         {
             // se jogador ja votou, atualiza o voto
             if (Votes.Any(v => v.PlayerNumber == vote.PlayerNumber))

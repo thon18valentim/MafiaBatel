@@ -12,6 +12,11 @@ namespace VAL.MafiaBatel.Services
             return dbContext.PlayersList;
         }
 
+        public Player? GetPlayer(int playerNumber)
+        {
+            return dbContext.PlayersList.FirstOrDefault(pl => pl.PlayerNumber == playerNumber);
+        }
+
         public void AddPlayer(Player player)
         {
             dbContext.PlayersList.Add(player);
