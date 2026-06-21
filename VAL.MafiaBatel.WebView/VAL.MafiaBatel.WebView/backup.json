@@ -1,29 +1,1534 @@
 {
   "GameManagement": {
-    "GameId": "f8e639d6-67a9-4394-8c1f-05ecba87c491",
+    "GameId": "0c996cb1-2357-4ee1-ba29-e50c6bafe633",
     "GameName": "Mafia Batel 2026",
-    "VotingEvents": []
+    "VotingEvents": [
+      {
+        "GameId": "0c996cb1-2357-4ee1-ba29-e50c6bafe633",
+        "EventId": "78124ccf-fef4-4887-9007-a1d066759cc1",
+        "EventName": "Rodada 1",
+        "EventDescription": "Inicio do jogo",
+        "Votes": [
+          {
+            "VoteId": "fa575c54-a710-4070-9e34-b53a58d73a54",
+            "PlayerNumber": 17,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 20
+              }
+            ]
+          },
+          {
+            "VoteId": "dafce784-e40c-4863-8026-d35bbe71d5d0",
+            "PlayerNumber": 18,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 13
+              }
+            ]
+          },
+          {
+            "VoteId": "69da8bf1-5a02-4b37-9fc5-ed212cf7c2bf",
+            "PlayerNumber": 1,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 8
+              }
+            ]
+          },
+          {
+            "VoteId": "153fab6a-922b-4e10-a5fd-e38e9ad5ee16",
+            "PlayerNumber": 12,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 7
+              }
+            ]
+          },
+          {
+            "VoteId": "45416c7a-c942-42d0-9303-30fc9295fc03",
+            "PlayerNumber": 2,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 13
+              }
+            ]
+          },
+          {
+            "VoteId": "cc6725b7-a1e8-4427-8dfe-d2bd26f5a3fc",
+            "PlayerNumber": 9,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 8
+              }
+            ]
+          },
+          {
+            "VoteId": "5066ce6c-7401-4f51-95c3-7134dd156ae3",
+            "PlayerNumber": 19,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 10
+              }
+            ]
+          },
+          {
+            "VoteId": "201e299b-bc4a-4dc0-9d70-fbe216b96055",
+            "PlayerNumber": 8,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 13
+              }
+            ]
+          },
+          {
+            "VoteId": "26addf9a-8e9e-4ec5-b2dd-f14308ba1c09",
+            "PlayerNumber": 3,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 11
+              }
+            ]
+          },
+          {
+            "VoteId": "bedc8b2f-0e26-48cd-a9c2-1a679d6d3571",
+            "PlayerNumber": 10,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 11
+              }
+            ]
+          },
+          {
+            "VoteId": "94e4b19e-63d2-4c92-9a7f-c1020453a337",
+            "PlayerNumber": 5,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 12
+              }
+            ]
+          },
+          {
+            "VoteId": "bc201a80-feff-4323-9bdb-bfd97f1ae3f8",
+            "PlayerNumber": 6,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                  "ActionDescription": "Sequestrar"
+                },
+                "TargetPlayerNumber": 8
+              }
+            ]
+          },
+          {
+            "VoteId": "a20c34c9-3c49-4ca8-9f73-0b1dcf388f81",
+            "PlayerNumber": 11,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                  "ActionDescription": "Sequestrar"
+                },
+                "TargetPlayerNumber": 8
+              }
+            ]
+          },
+          {
+            "VoteId": "219679fa-5338-4127-b043-c6e6ccef8330",
+            "PlayerNumber": 16,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 11
+              }
+            ]
+          },
+          {
+            "VoteId": "264f52e1-9335-436f-9aa4-2ffef29369ef",
+            "PlayerNumber": 14,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 11
+              }
+            ]
+          },
+          {
+            "VoteId": "2af6fe8c-799f-42e6-897a-b9d857e092fc",
+            "PlayerNumber": 4,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 13
+              }
+            ]
+          },
+          {
+            "VoteId": "c3e0aed1-d2ab-47e1-992a-13ce630bee77",
+            "PlayerNumber": 15,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                  "ActionDescription": "Sequestrar"
+                },
+                "TargetPlayerNumber": 8
+              }
+            ]
+          },
+          {
+            "VoteId": "3e6a3875-9453-4b52-a0ad-d412b766117a",
+            "PlayerNumber": 13,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                  "ActionDescription": "Sequestrar"
+                },
+                "TargetPlayerNumber": 8
+              }
+            ]
+          },
+          {
+            "VoteId": "40d0cbd5-91b2-428f-9f1c-44679534b3cb",
+            "PlayerNumber": 7,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 11
+              }
+            ]
+          }
+        ],
+        "CreatedAt": "2026-06-20T22:22:55.8300904-03:00"
+      },
+      {
+        "GameId": "0c996cb1-2357-4ee1-ba29-e50c6bafe633",
+        "EventId": "92cdc1fc-60cc-4b85-b79e-43b4c796614a",
+        "EventName": "Rodada 2",
+        "EventDescription": "Uma disputa boa",
+        "Votes": [
+          {
+            "VoteId": "2119d211-9c11-4db0-9cfb-1541a47ebf0f",
+            "PlayerNumber": 17,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 18
+              }
+            ]
+          },
+          {
+            "VoteId": "52ac22e9-b426-44a8-aced-3dc0cb339b09",
+            "PlayerNumber": 20,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 13
+              }
+            ]
+          },
+          {
+            "VoteId": "a2b8c040-e91b-4764-abcd-7428302b64b2",
+            "PlayerNumber": 18,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 7
+              }
+            ]
+          },
+          {
+            "VoteId": "0903de31-f450-4845-bbbe-bc8bee2a837f",
+            "PlayerNumber": 10,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 12
+              }
+            ]
+          },
+          {
+            "VoteId": "33fc43c2-8ed4-468f-9a0a-159b960e0b69",
+            "PlayerNumber": 19,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 10
+              }
+            ]
+          },
+          {
+            "VoteId": "d4941c6f-8c9e-45f6-aacc-23ddaff84768",
+            "PlayerNumber": 22,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 7
+              }
+            ]
+          },
+          {
+            "VoteId": "6d176f97-01a9-48e1-b127-02502a29d1b0",
+            "PlayerNumber": 9,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 15
+              }
+            ]
+          },
+          {
+            "VoteId": "69686219-2cba-4a0f-a51b-7d5a78f2af38",
+            "PlayerNumber": 1,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 4
+              }
+            ]
+          },
+          {
+            "VoteId": "8ca2bee0-b0a1-44b0-aea5-baf6415f834e",
+            "PlayerNumber": 2,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 10
+              }
+            ]
+          },
+          {
+            "VoteId": "68920eb8-a2dc-4b4d-a987-a1407ca36966",
+            "PlayerNumber": 12,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 10
+              }
+            ]
+          },
+          {
+            "VoteId": "ca05930f-6407-4f11-ac95-de620133098c",
+            "PlayerNumber": 15,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                  "ActionDescription": "Sequestrar"
+                },
+                "TargetPlayerNumber": 12
+              }
+            ]
+          },
+          {
+            "VoteId": "c48a67b3-ded4-48b6-861d-fc35bc92f983",
+            "PlayerNumber": 7,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "4e771baf-6c88-4f66-9675-04bddb65e55f",
+                  "ActionDescription": "Imunizar"
+                },
+                "TargetPlayerNumber": 3
+              },
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 15
+              }
+            ]
+          },
+          {
+            "VoteId": "41fadefd-9ec4-44f4-b16c-f4762b174b8d",
+            "PlayerNumber": 3,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 12
+              }
+            ]
+          },
+          {
+            "VoteId": "3a342b6b-f1ad-4c1e-a55b-014817f5cfcc",
+            "PlayerNumber": 4,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 13
+              }
+            ]
+          },
+          {
+            "VoteId": "7d1c9f3a-b567-44e4-bd7e-e4a71879556b",
+            "PlayerNumber": 13,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                  "ActionDescription": "Sequestrar"
+                },
+                "TargetPlayerNumber": 12
+              }
+            ]
+          },
+          {
+            "VoteId": "c8c389f8-3a11-4d2d-aa7b-42d5449b74d8",
+            "PlayerNumber": 14,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 10
+              }
+            ]
+          },
+          {
+            "VoteId": "aaf44de0-6dee-4a74-9e60-6d710eb34249",
+            "PlayerNumber": 5,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 1
+              }
+            ]
+          },
+          {
+            "VoteId": "3928efdd-7816-4c39-a2b3-d34b0c2073da",
+            "PlayerNumber": 6,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                  "ActionDescription": "Sequestrar"
+                },
+                "TargetPlayerNumber": 12
+              }
+            ]
+          },
+          {
+            "VoteId": "5d6a91d2-4013-4adb-adc2-4eefd9e1d390",
+            "PlayerNumber": 16,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 1
+              }
+            ]
+          }
+        ],
+        "CreatedAt": "2026-06-20T22:41:18.6471576-03:00"
+      },
+      {
+        "GameId": "0c996cb1-2357-4ee1-ba29-e50c6bafe633",
+        "EventId": "17a82ee7-e2bc-4aae-80e0-ac553fa48ed6",
+        "EventName": "Rodada 3",
+        "EventDescription": "Mafia tomou a frente",
+        "Votes": [
+          {
+            "VoteId": "9fdcae14-8f8d-4cf8-b050-7ae7859f49a9",
+            "PlayerNumber": 17,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 15
+              }
+            ]
+          },
+          {
+            "VoteId": "68e1d218-6176-4d64-a694-44029a444b6c",
+            "PlayerNumber": 5,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 1
+              }
+            ]
+          },
+          {
+            "VoteId": "efb8eabd-1e36-4927-a6ef-da05605d5dbd",
+            "PlayerNumber": 6,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                  "ActionDescription": "Sequestrar"
+                },
+                "TargetPlayerNumber": 4
+              }
+            ]
+          },
+          {
+            "VoteId": "1db46de6-354a-4a3f-9bc3-470e160c5c80",
+            "PlayerNumber": 14,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 6
+              }
+            ]
+          },
+          {
+            "VoteId": "6a4fc85d-c0af-41b7-9756-2ecf3228307a",
+            "PlayerNumber": 19,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 14
+              }
+            ]
+          },
+          {
+            "VoteId": "ce473cf0-5f5f-4418-bbc7-da0a372540a0",
+            "PlayerNumber": 18,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 14
+              }
+            ]
+          },
+          {
+            "VoteId": "b7cf5821-c0a4-4df9-8f4f-e3c1757cae32",
+            "PlayerNumber": 2,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 14
+              }
+            ]
+          },
+          {
+            "VoteId": "4905da03-88d9-4e69-8231-b4e491d23cc0",
+            "PlayerNumber": 20,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 11
+              }
+            ]
+          },
+          {
+            "VoteId": "2b7f70cb-4187-4a7b-956d-a013f6faf697",
+            "PlayerNumber": 16,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 6
+              }
+            ]
+          },
+          {
+            "VoteId": "64f022e0-ccf6-4d2f-b839-263288f83ad0",
+            "PlayerNumber": 7,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "4e771baf-6c88-4f66-9675-04bddb65e55f",
+                  "ActionDescription": "Imunizar"
+                },
+                "TargetPlayerNumber": 9
+              }
+            ]
+          },
+          {
+            "VoteId": "b29d23a5-11cc-4f68-8228-f87ce6e0514b",
+            "PlayerNumber": 13,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                  "ActionDescription": "Sequestrar"
+                },
+                "TargetPlayerNumber": 4
+              }
+            ]
+          },
+          {
+            "VoteId": "315acb7a-2a78-4508-ae3d-6178d37e88da",
+            "PlayerNumber": 3,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 5
+              }
+            ]
+          },
+          {
+            "VoteId": "d5584028-4e54-4a07-9938-3a32dcabc5fa",
+            "PlayerNumber": 15,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                  "ActionDescription": "Sequestrar"
+                },
+                "TargetPlayerNumber": 4
+              }
+            ]
+          },
+          {
+            "VoteId": "68b4882d-7329-4c1f-bb03-d56f3b2a513c",
+            "PlayerNumber": 4,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 15
+              }
+            ]
+          },
+          {
+            "VoteId": "14ba7e47-c21a-4438-b4c8-11848c81fc70",
+            "PlayerNumber": 22,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 7
+              }
+            ]
+          },
+          {
+            "VoteId": "24d0059b-8450-40ec-9fb4-5dcf6d3a8046",
+            "PlayerNumber": 1,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 7
+              }
+            ]
+          },
+          {
+            "VoteId": "824f94c1-240c-435c-bdc7-e3157d96c1fe",
+            "PlayerNumber": 9,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 3
+              }
+            ]
+          }
+        ],
+        "CreatedAt": "2026-06-20T22:53:37.8974542-03:00"
+      },
+      {
+        "GameId": "0c996cb1-2357-4ee1-ba29-e50c6bafe633",
+        "EventId": "364196a7-893b-4042-bbad-483402fbca1a",
+        "EventName": "Rodada 4",
+        "EventDescription": "Mafia prendeu o detetive",
+        "Votes": [
+          {
+            "VoteId": "004a5650-0164-40ae-9ac6-5fc3fed0f7eb",
+            "PlayerNumber": 17,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 1
+              }
+            ]
+          },
+          {
+            "VoteId": "060fff50-dad9-4ce9-9ccd-69f45b3bc7d3",
+            "PlayerNumber": 20,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 3
+              }
+            ]
+          },
+          {
+            "VoteId": "7c021f21-9c9d-4158-965a-66399989d3a8",
+            "PlayerNumber": 16,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 6
+              }
+            ]
+          },
+          {
+            "VoteId": "b8f41a85-4af7-43ed-ba67-1b8353afd9c8",
+            "PlayerNumber": 3,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 5
+              }
+            ]
+          },
+          {
+            "VoteId": "05161372-5b10-4456-8599-8b72444432bf",
+            "PlayerNumber": 5,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 1
+              }
+            ]
+          },
+          {
+            "VoteId": "8ca4912f-ff5d-48a2-962c-23af480fb15e",
+            "PlayerNumber": 6,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                  "ActionDescription": "Sequestrar"
+                },
+                "TargetPlayerNumber": 18
+              }
+            ]
+          },
+          {
+            "VoteId": "a108f098-cf8c-4247-8be2-ad51a9aaf2ce",
+            "PlayerNumber": 13,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                  "ActionDescription": "Sequestrar"
+                },
+                "TargetPlayerNumber": 18
+              }
+            ]
+          },
+          {
+            "VoteId": "7a9ab63d-546c-468d-b376-a215ebf31a35",
+            "PlayerNumber": 19,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 12
+              }
+            ]
+          },
+          {
+            "VoteId": "4998d52b-191a-40cd-ad0e-95fd88db36f7",
+            "PlayerNumber": 15,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                  "ActionDescription": "Sequestrar"
+                },
+                "TargetPlayerNumber": 18
+              }
+            ]
+          },
+          {
+            "VoteId": "4b71d101-2216-4b0e-b762-a8d8cd9a4d56",
+            "PlayerNumber": 2,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 16
+              }
+            ]
+          },
+          {
+            "VoteId": "78618ce3-276a-4ea0-8d61-bc18e0e96aba",
+            "PlayerNumber": 1,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 7
+              }
+            ]
+          },
+          {
+            "VoteId": "7f6470d4-5617-47d6-aa19-5c78c9965f41",
+            "PlayerNumber": 7,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "4e771baf-6c88-4f66-9675-04bddb65e55f",
+                  "ActionDescription": "Imunizar"
+                },
+                "TargetPlayerNumber": 3
+              },
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 15
+              }
+            ]
+          },
+          {
+            "VoteId": "fa342429-fd08-4fe9-b7ef-f5e49369b6ab",
+            "PlayerNumber": 9,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 13
+              }
+            ]
+          },
+          {
+            "VoteId": "5bd1f68d-38fb-42f9-9157-d447569b5d46",
+            "PlayerNumber": 18,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 16
+              }
+            ]
+          }
+        ],
+        "CreatedAt": "2026-06-20T23:04:12.2749794-03:00"
+      },
+      {
+        "GameId": "0c996cb1-2357-4ee1-ba29-e50c6bafe633",
+        "EventId": "6b7b6e0c-dec1-4355-9c3f-65bc50b067e5",
+        "EventName": "Rodada 5",
+        "EventDescription": "Mafia esta acertando todas",
+        "Votes": [
+          {
+            "VoteId": "95dbc601-57b5-4a04-8f84-0101f2181100",
+            "PlayerNumber": 5,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 7
+              }
+            ]
+          },
+          {
+            "VoteId": "5c4bfc74-9b75-4cde-a464-ea3156b9da3b",
+            "PlayerNumber": 19,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 5
+              }
+            ]
+          },
+          {
+            "VoteId": "8ef17ada-f156-4f6c-ba1c-86bac487b718",
+            "PlayerNumber": 17,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 5
+              }
+            ]
+          },
+          {
+            "VoteId": "ca993970-5dfc-46f8-8cff-f121d58ffc36",
+            "PlayerNumber": 6,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                  "ActionDescription": "Sequestrar"
+                },
+                "TargetPlayerNumber": 3
+              }
+            ]
+          },
+          {
+            "VoteId": "4b933fd9-b72a-472e-968e-11335163694c",
+            "PlayerNumber": 7,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "fcdca984-4d38-4bd2-87a7-f77f0939116b",
+                  "ActionDescription": "Resgatar"
+                },
+                "TargetPlayerNumber": 8
+              },
+              {
+                "Action": {
+                  "ActionId": "4e771baf-6c88-4f66-9675-04bddb65e55f",
+                  "ActionDescription": "Imunizar"
+                },
+                "TargetPlayerNumber": 2
+              }
+            ]
+          },
+          {
+            "VoteId": "53f46473-e3b6-4691-8f74-aa7b855fb9bc",
+            "PlayerNumber": 3,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 5
+              }
+            ]
+          },
+          {
+            "VoteId": "8f162073-1b87-44c2-8a92-c172a2cb0c59",
+            "PlayerNumber": 9,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 13
+              }
+            ]
+          },
+          {
+            "VoteId": "4ba4737c-e2b2-4903-af00-d8bb495dacdc",
+            "PlayerNumber": 13,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                  "ActionDescription": "Sequestrar"
+                },
+                "TargetPlayerNumber": 3
+              }
+            ]
+          },
+          {
+            "VoteId": "bbdf6cac-9649-4aa4-b72a-23b77dc59507",
+            "PlayerNumber": 2,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 13
+              }
+            ]
+          },
+          {
+            "VoteId": "b5689859-b155-4f87-9ceb-114756608c52",
+            "PlayerNumber": 20,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 13
+              }
+            ]
+          },
+          {
+            "VoteId": "8c1e4b68-6b3c-4819-bdbd-4471302a2de2",
+            "PlayerNumber": 15,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                  "ActionDescription": "Sequestrar"
+                },
+                "TargetPlayerNumber": 3
+              }
+            ]
+          }
+        ],
+        "CreatedAt": "2026-06-20T23:15:48.0486556-03:00"
+      },
+      {
+        "GameId": "0c996cb1-2357-4ee1-ba29-e50c6bafe633",
+        "EventId": "e3162c92-0296-446a-83fe-6286501557a9",
+        "EventName": "Rodada 6",
+        "EventDescription": "Anjo jogou muito",
+        "Votes": [
+          {
+            "VoteId": "30191c8d-cc96-48d0-965d-90e7a11d0e19",
+            "PlayerNumber": 19,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 7
+              }
+            ]
+          },
+          {
+            "VoteId": "9beed525-d20c-4eb6-98c1-9490d9c8515d",
+            "PlayerNumber": 8,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 15
+              }
+            ]
+          },
+          {
+            "VoteId": "6b9e4652-a32d-4ae8-8ec3-6c7e204aa99f",
+            "PlayerNumber": 17,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 2
+              }
+            ]
+          },
+          {
+            "VoteId": "a185f34a-98cf-45c5-997d-fe0bfbcaa413",
+            "PlayerNumber": 15,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                  "ActionDescription": "Sequestrar"
+                },
+                "TargetPlayerNumber": 2
+              }
+            ]
+          },
+          {
+            "VoteId": "0b59addd-fc04-4e7a-a842-258b73c98242",
+            "PlayerNumber": 9,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 15
+              }
+            ]
+          },
+          {
+            "VoteId": "d92138b5-f43e-4f72-b7f1-5d4196756d86",
+            "PlayerNumber": 2,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 15
+              }
+            ]
+          },
+          {
+            "VoteId": "37ba2958-2b30-42de-918d-e33210bcad6a",
+            "PlayerNumber": 6,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                  "ActionDescription": "Sequestrar"
+                },
+                "TargetPlayerNumber": 2
+              }
+            ]
+          },
+          {
+            "VoteId": "acd3310d-2eda-4873-b14d-c7a972d28161",
+            "PlayerNumber": 20,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 15
+              }
+            ]
+          },
+          {
+            "VoteId": "96be3685-9514-4fe4-b717-302637a32a4f",
+            "PlayerNumber": 7,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "4e771baf-6c88-4f66-9675-04bddb65e55f",
+                  "ActionDescription": "Imunizar"
+                },
+                "TargetPlayerNumber": 2
+              },
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 15
+              }
+            ]
+          }
+        ],
+        "CreatedAt": "2026-06-20T23:24:35.8319532-03:00"
+      },
+      {
+        "GameId": "0c996cb1-2357-4ee1-ba29-e50c6bafe633",
+        "EventId": "2d1d8ece-0dbb-4d39-a3c5-0fc257016a2c",
+        "EventName": "Rodada 7",
+        "EventDescription": "Anjo jogou muito e Swat entrou no jogo",
+        "Votes": [
+          {
+            "VoteId": "9e6bbc64-6a9d-4b6a-87fd-0c0bc7bfd340",
+            "PlayerNumber": 19,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 6
+              }
+            ]
+          },
+          {
+            "VoteId": "ea65a83f-34fe-461a-be7d-54dca165fb05",
+            "PlayerNumber": 17,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 6
+              }
+            ]
+          },
+          {
+            "VoteId": "fbde080d-5559-4744-a612-130176577539",
+            "PlayerNumber": 7,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "4e771baf-6c88-4f66-9675-04bddb65e55f",
+                  "ActionDescription": "Imunizar"
+                },
+                "TargetPlayerNumber": 2
+              },
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 6
+              }
+            ]
+          },
+          {
+            "VoteId": "aa1bbc52-5a73-4f84-a5d6-3976518e6e61",
+            "PlayerNumber": 9,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 6
+              }
+            ]
+          },
+          {
+            "VoteId": "834fb288-5f9a-4bed-9ac2-2586d219ac9d",
+            "PlayerNumber": 20,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 6
+              }
+            ]
+          },
+          {
+            "VoteId": "4a061a55-ddf3-4aed-bc00-d9a12f9f83ea",
+            "PlayerNumber": 8,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 6
+              }
+            ]
+          },
+          {
+            "VoteId": "a54e6163-7d5e-4138-873a-324b0ab10a26",
+            "PlayerNumber": 6,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                  "ActionDescription": "Sequestrar"
+                },
+                "TargetPlayerNumber": 17
+              }
+            ]
+          },
+          {
+            "VoteId": "2aef8318-289f-4ff1-aec1-7dc16ded91e0",
+            "PlayerNumber": 2,
+            "Actions": [
+              {
+                "Action": {
+                  "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                  "ActionDescription": "Prender"
+                },
+                "TargetPlayerNumber": 6
+              }
+            ]
+          }
+        ],
+        "CreatedAt": "2026-06-20T23:34:33.8294413-03:00"
+      }
+    ]
   },
   "PlayersList": [
     {
-      "Name": "Othon Valentim",
+      "Name": "Rafa Gon",
       "PlayerNumber": 1,
-      "Role": null
+      "Role": {
+        "RoleId": 3,
+        "RoleName": "Justiceiro"
+      }
     },
     {
       "Name": "Bruno Benetti",
       "PlayerNumber": 2,
-      "Role": null
+      "Role": {
+        "RoleId": 2,
+        "RoleName": "Pol\u00EDcia"
+      }
     },
     {
-      "Name": "Felipe Luiz",
+      "Name": "Breno",
       "PlayerNumber": 3,
+      "Role": {
+        "RoleId": 0,
+        "RoleName": "Cidad\u00E3o"
+      }
+    },
+    {
+      "Name": "Leo",
+      "PlayerNumber": 4,
+      "Role": {
+        "RoleId": 5,
+        "RoleName": "Detetive"
+      }
+    },
+    {
+      "Name": "Esau",
+      "PlayerNumber": 5,
+      "Role": {
+        "RoleId": 0,
+        "RoleName": "Cidad\u00E3o"
+      }
+    },
+    {
+      "Name": "Mavi",
+      "PlayerNumber": 6,
+      "Role": {
+        "RoleId": 1,
+        "RoleName": "M\u00E1fia"
+      }
+    },
+    {
+      "Name": "Sophia",
+      "PlayerNumber": 7,
+      "Role": {
+        "RoleId": 4,
+        "RoleName": "Anjo"
+      }
+    },
+    {
+      "Name": "Vane",
+      "PlayerNumber": 9,
+      "Role": {
+        "RoleId": 0,
+        "RoleName": "Cidad\u00E3o"
+      }
+    },
+    {
+      "Name": "Artur",
+      "PlayerNumber": 8,
+      "Role": {
+        "RoleId": 2,
+        "RoleName": "Pol\u00EDcia"
+      }
+    },
+    {
+      "Name": "Paula",
+      "PlayerNumber": 10,
+      "Role": {
+        "RoleId": 0,
+        "RoleName": "Cidad\u00E3o"
+      }
+    },
+    {
+      "Name": "Daniel",
+      "PlayerNumber": 11,
+      "Role": {
+        "RoleId": 1,
+        "RoleName": "M\u00E1fia"
+      }
+    },
+    {
+      "Name": "Erika",
+      "PlayerNumber": 12,
+      "Role": {
+        "RoleId": 2,
+        "RoleName": "Pol\u00EDcia"
+      }
+    },
+    {
+      "Name": "Josias",
+      "PlayerNumber": 13,
+      "Role": {
+        "RoleId": 1,
+        "RoleName": "M\u00E1fia"
+      }
+    },
+    {
+      "Name": "Yasmin",
+      "PlayerNumber": 15,
+      "Role": {
+        "RoleId": 1,
+        "RoleName": "M\u00E1fia"
+      }
+    },
+    {
+      "Name": "Francisco",
+      "PlayerNumber": 14,
+      "Role": {
+        "RoleId": 0,
+        "RoleName": "Cidad\u00E3o"
+      }
+    },
+    {
+      "Name": "Louise",
+      "PlayerNumber": 16,
+      "Role": {
+        "RoleId": 0,
+        "RoleName": "Cidad\u00E3o"
+      }
+    },
+    {
+      "Name": "Maria Cristina",
+      "PlayerNumber": 17,
+      "Role": {
+        "RoleId": 0,
+        "RoleName": "Cidad\u00E3o"
+      }
+    },
+    {
+      "Name": "Iraceli",
+      "PlayerNumber": 18,
+      "Role": {
+        "RoleId": 2,
+        "RoleName": "Pol\u00EDcia"
+      }
+    },
+    {
+      "Name": "Gael",
+      "PlayerNumber": 19,
+      "Role": {
+        "RoleId": 0,
+        "RoleName": "Cidad\u00E3o"
+      }
+    },
+    {
+      "Name": "Will",
+      "PlayerNumber": 20,
       "Role": null
     },
     {
-      "Name": "Todinho",
-      "PlayerNumber": 4,
-      "Role": null
+      "Name": "Igor",
+      "PlayerNumber": 22,
+      "Role": {
+        "RoleId": 3,
+        "RoleName": "Justiceiro"
+      }
     }
   ],
   "RolesList": [
@@ -48,33 +1553,1969 @@
       "RoleName": "Detetive"
     }
   ],
-  "Group": null,
-  "VotingEvents": [],
+  "Group": {
+    "GroupName": "IASD Batel",
+    "Players": [
+      {
+        "Name": "Rafa Gon",
+        "PlayerNumber": 1,
+        "Role": {
+          "RoleId": 3,
+          "RoleName": "Justiceiro"
+        }
+      },
+      {
+        "Name": "Bruno Benetti",
+        "PlayerNumber": 2,
+        "Role": {
+          "RoleId": 2,
+          "RoleName": "Pol\u00EDcia"
+        }
+      },
+      {
+        "Name": "Breno",
+        "PlayerNumber": 3,
+        "Role": {
+          "RoleId": 0,
+          "RoleName": "Cidad\u00E3o"
+        }
+      },
+      {
+        "Name": "Leo",
+        "PlayerNumber": 4,
+        "Role": {
+          "RoleId": 5,
+          "RoleName": "Detetive"
+        }
+      },
+      {
+        "Name": "Esau",
+        "PlayerNumber": 5,
+        "Role": {
+          "RoleId": 0,
+          "RoleName": "Cidad\u00E3o"
+        }
+      },
+      {
+        "Name": "Mavi",
+        "PlayerNumber": 6,
+        "Role": {
+          "RoleId": 1,
+          "RoleName": "M\u00E1fia"
+        }
+      },
+      {
+        "Name": "Sophia",
+        "PlayerNumber": 7,
+        "Role": {
+          "RoleId": 4,
+          "RoleName": "Anjo"
+        }
+      },
+      {
+        "Name": "Vane",
+        "PlayerNumber": 9,
+        "Role": {
+          "RoleId": 0,
+          "RoleName": "Cidad\u00E3o"
+        }
+      },
+      {
+        "Name": "Artur",
+        "PlayerNumber": 8,
+        "Role": {
+          "RoleId": 2,
+          "RoleName": "Pol\u00EDcia"
+        }
+      },
+      {
+        "Name": "Paula",
+        "PlayerNumber": 10,
+        "Role": {
+          "RoleId": 0,
+          "RoleName": "Cidad\u00E3o"
+        }
+      },
+      {
+        "Name": "Daniel",
+        "PlayerNumber": 11,
+        "Role": {
+          "RoleId": 1,
+          "RoleName": "M\u00E1fia"
+        }
+      },
+      {
+        "Name": "Erika",
+        "PlayerNumber": 12,
+        "Role": {
+          "RoleId": 2,
+          "RoleName": "Pol\u00EDcia"
+        }
+      },
+      {
+        "Name": "Josias",
+        "PlayerNumber": 13,
+        "Role": {
+          "RoleId": 1,
+          "RoleName": "M\u00E1fia"
+        }
+      },
+      {
+        "Name": "Yasmin",
+        "PlayerNumber": 15,
+        "Role": {
+          "RoleId": 1,
+          "RoleName": "M\u00E1fia"
+        }
+      },
+      {
+        "Name": "Francisco",
+        "PlayerNumber": 14,
+        "Role": {
+          "RoleId": 0,
+          "RoleName": "Cidad\u00E3o"
+        }
+      },
+      {
+        "Name": "Louise",
+        "PlayerNumber": 16,
+        "Role": {
+          "RoleId": 0,
+          "RoleName": "Cidad\u00E3o"
+        }
+      },
+      {
+        "Name": "Maria Cristina",
+        "PlayerNumber": 17,
+        "Role": {
+          "RoleId": 0,
+          "RoleName": "Cidad\u00E3o"
+        }
+      },
+      {
+        "Name": "Iraceli",
+        "PlayerNumber": 18,
+        "Role": {
+          "RoleId": 2,
+          "RoleName": "Pol\u00EDcia"
+        }
+      },
+      {
+        "Name": "Gael",
+        "PlayerNumber": 19,
+        "Role": {
+          "RoleId": 0,
+          "RoleName": "Cidad\u00E3o"
+        }
+      },
+      {
+        "Name": "Will",
+        "PlayerNumber": 20,
+        "Role": null
+      },
+      {
+        "Name": "Igor",
+        "PlayerNumber": 22,
+        "Role": {
+          "RoleId": 3,
+          "RoleName": "Justiceiro"
+        }
+      }
+    ],
+    "CreationDate": "2026-06-20T21:42:04.8673613-03:00"
+  },
+  "VotingEvents": [
+    {
+      "GameId": "0c996cb1-2357-4ee1-ba29-e50c6bafe633",
+      "EventId": "78124ccf-fef4-4887-9007-a1d066759cc1",
+      "EventName": "Rodada 1",
+      "EventDescription": "Inicio do jogo",
+      "Votes": [
+        {
+          "VoteId": "fa575c54-a710-4070-9e34-b53a58d73a54",
+          "PlayerNumber": 17,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 20
+            }
+          ]
+        },
+        {
+          "VoteId": "dafce784-e40c-4863-8026-d35bbe71d5d0",
+          "PlayerNumber": 18,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 13
+            }
+          ]
+        },
+        {
+          "VoteId": "69da8bf1-5a02-4b37-9fc5-ed212cf7c2bf",
+          "PlayerNumber": 1,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 8
+            }
+          ]
+        },
+        {
+          "VoteId": "153fab6a-922b-4e10-a5fd-e38e9ad5ee16",
+          "PlayerNumber": 12,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 7
+            }
+          ]
+        },
+        {
+          "VoteId": "45416c7a-c942-42d0-9303-30fc9295fc03",
+          "PlayerNumber": 2,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 13
+            }
+          ]
+        },
+        {
+          "VoteId": "cc6725b7-a1e8-4427-8dfe-d2bd26f5a3fc",
+          "PlayerNumber": 9,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 8
+            }
+          ]
+        },
+        {
+          "VoteId": "5066ce6c-7401-4f51-95c3-7134dd156ae3",
+          "PlayerNumber": 19,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 10
+            }
+          ]
+        },
+        {
+          "VoteId": "201e299b-bc4a-4dc0-9d70-fbe216b96055",
+          "PlayerNumber": 8,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 13
+            }
+          ]
+        },
+        {
+          "VoteId": "26addf9a-8e9e-4ec5-b2dd-f14308ba1c09",
+          "PlayerNumber": 3,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 11
+            }
+          ]
+        },
+        {
+          "VoteId": "bedc8b2f-0e26-48cd-a9c2-1a679d6d3571",
+          "PlayerNumber": 10,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 11
+            }
+          ]
+        },
+        {
+          "VoteId": "94e4b19e-63d2-4c92-9a7f-c1020453a337",
+          "PlayerNumber": 5,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 12
+            }
+          ]
+        },
+        {
+          "VoteId": "bc201a80-feff-4323-9bdb-bfd97f1ae3f8",
+          "PlayerNumber": 6,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                "ActionDescription": "Sequestrar"
+              },
+              "TargetPlayerNumber": 8
+            }
+          ]
+        },
+        {
+          "VoteId": "a20c34c9-3c49-4ca8-9f73-0b1dcf388f81",
+          "PlayerNumber": 11,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                "ActionDescription": "Sequestrar"
+              },
+              "TargetPlayerNumber": 8
+            }
+          ]
+        },
+        {
+          "VoteId": "219679fa-5338-4127-b043-c6e6ccef8330",
+          "PlayerNumber": 16,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 11
+            }
+          ]
+        },
+        {
+          "VoteId": "264f52e1-9335-436f-9aa4-2ffef29369ef",
+          "PlayerNumber": 14,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 11
+            }
+          ]
+        },
+        {
+          "VoteId": "2af6fe8c-799f-42e6-897a-b9d857e092fc",
+          "PlayerNumber": 4,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 13
+            }
+          ]
+        },
+        {
+          "VoteId": "c3e0aed1-d2ab-47e1-992a-13ce630bee77",
+          "PlayerNumber": 15,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                "ActionDescription": "Sequestrar"
+              },
+              "TargetPlayerNumber": 8
+            }
+          ]
+        },
+        {
+          "VoteId": "3e6a3875-9453-4b52-a0ad-d412b766117a",
+          "PlayerNumber": 13,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                "ActionDescription": "Sequestrar"
+              },
+              "TargetPlayerNumber": 8
+            }
+          ]
+        },
+        {
+          "VoteId": "40d0cbd5-91b2-428f-9f1c-44679534b3cb",
+          "PlayerNumber": 7,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 11
+            }
+          ]
+        }
+      ],
+      "CreatedAt": "2026-06-20T22:22:55.8300904-03:00"
+    },
+    {
+      "GameId": "0c996cb1-2357-4ee1-ba29-e50c6bafe633",
+      "EventId": "92cdc1fc-60cc-4b85-b79e-43b4c796614a",
+      "EventName": "Rodada 2",
+      "EventDescription": "Uma disputa boa",
+      "Votes": [
+        {
+          "VoteId": "2119d211-9c11-4db0-9cfb-1541a47ebf0f",
+          "PlayerNumber": 17,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 18
+            }
+          ]
+        },
+        {
+          "VoteId": "52ac22e9-b426-44a8-aced-3dc0cb339b09",
+          "PlayerNumber": 20,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 13
+            }
+          ]
+        },
+        {
+          "VoteId": "a2b8c040-e91b-4764-abcd-7428302b64b2",
+          "PlayerNumber": 18,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 7
+            }
+          ]
+        },
+        {
+          "VoteId": "0903de31-f450-4845-bbbe-bc8bee2a837f",
+          "PlayerNumber": 10,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 12
+            }
+          ]
+        },
+        {
+          "VoteId": "33fc43c2-8ed4-468f-9a0a-159b960e0b69",
+          "PlayerNumber": 19,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 10
+            }
+          ]
+        },
+        {
+          "VoteId": "d4941c6f-8c9e-45f6-aacc-23ddaff84768",
+          "PlayerNumber": 22,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 7
+            }
+          ]
+        },
+        {
+          "VoteId": "6d176f97-01a9-48e1-b127-02502a29d1b0",
+          "PlayerNumber": 9,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 15
+            }
+          ]
+        },
+        {
+          "VoteId": "69686219-2cba-4a0f-a51b-7d5a78f2af38",
+          "PlayerNumber": 1,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 4
+            }
+          ]
+        },
+        {
+          "VoteId": "8ca2bee0-b0a1-44b0-aea5-baf6415f834e",
+          "PlayerNumber": 2,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 10
+            }
+          ]
+        },
+        {
+          "VoteId": "68920eb8-a2dc-4b4d-a987-a1407ca36966",
+          "PlayerNumber": 12,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 10
+            }
+          ]
+        },
+        {
+          "VoteId": "ca05930f-6407-4f11-ac95-de620133098c",
+          "PlayerNumber": 15,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                "ActionDescription": "Sequestrar"
+              },
+              "TargetPlayerNumber": 12
+            }
+          ]
+        },
+        {
+          "VoteId": "c48a67b3-ded4-48b6-861d-fc35bc92f983",
+          "PlayerNumber": 7,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "4e771baf-6c88-4f66-9675-04bddb65e55f",
+                "ActionDescription": "Imunizar"
+              },
+              "TargetPlayerNumber": 3
+            },
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 15
+            }
+          ]
+        },
+        {
+          "VoteId": "41fadefd-9ec4-44f4-b16c-f4762b174b8d",
+          "PlayerNumber": 3,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 12
+            }
+          ]
+        },
+        {
+          "VoteId": "3a342b6b-f1ad-4c1e-a55b-014817f5cfcc",
+          "PlayerNumber": 4,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 13
+            }
+          ]
+        },
+        {
+          "VoteId": "7d1c9f3a-b567-44e4-bd7e-e4a71879556b",
+          "PlayerNumber": 13,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                "ActionDescription": "Sequestrar"
+              },
+              "TargetPlayerNumber": 12
+            }
+          ]
+        },
+        {
+          "VoteId": "c8c389f8-3a11-4d2d-aa7b-42d5449b74d8",
+          "PlayerNumber": 14,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 10
+            }
+          ]
+        },
+        {
+          "VoteId": "aaf44de0-6dee-4a74-9e60-6d710eb34249",
+          "PlayerNumber": 5,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 1
+            }
+          ]
+        },
+        {
+          "VoteId": "3928efdd-7816-4c39-a2b3-d34b0c2073da",
+          "PlayerNumber": 6,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                "ActionDescription": "Sequestrar"
+              },
+              "TargetPlayerNumber": 12
+            }
+          ]
+        },
+        {
+          "VoteId": "5d6a91d2-4013-4adb-adc2-4eefd9e1d390",
+          "PlayerNumber": 16,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 1
+            }
+          ]
+        }
+      ],
+      "CreatedAt": "2026-06-20T22:41:18.6471576-03:00"
+    },
+    {
+      "GameId": "0c996cb1-2357-4ee1-ba29-e50c6bafe633",
+      "EventId": "17a82ee7-e2bc-4aae-80e0-ac553fa48ed6",
+      "EventName": "Rodada 3",
+      "EventDescription": "Mafia tomou a frente",
+      "Votes": [
+        {
+          "VoteId": "9fdcae14-8f8d-4cf8-b050-7ae7859f49a9",
+          "PlayerNumber": 17,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 15
+            }
+          ]
+        },
+        {
+          "VoteId": "68e1d218-6176-4d64-a694-44029a444b6c",
+          "PlayerNumber": 5,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 1
+            }
+          ]
+        },
+        {
+          "VoteId": "efb8eabd-1e36-4927-a6ef-da05605d5dbd",
+          "PlayerNumber": 6,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                "ActionDescription": "Sequestrar"
+              },
+              "TargetPlayerNumber": 4
+            }
+          ]
+        },
+        {
+          "VoteId": "1db46de6-354a-4a3f-9bc3-470e160c5c80",
+          "PlayerNumber": 14,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 6
+            }
+          ]
+        },
+        {
+          "VoteId": "6a4fc85d-c0af-41b7-9756-2ecf3228307a",
+          "PlayerNumber": 19,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 14
+            }
+          ]
+        },
+        {
+          "VoteId": "ce473cf0-5f5f-4418-bbc7-da0a372540a0",
+          "PlayerNumber": 18,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 14
+            }
+          ]
+        },
+        {
+          "VoteId": "b7cf5821-c0a4-4df9-8f4f-e3c1757cae32",
+          "PlayerNumber": 2,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 14
+            }
+          ]
+        },
+        {
+          "VoteId": "4905da03-88d9-4e69-8231-b4e491d23cc0",
+          "PlayerNumber": 20,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 11
+            }
+          ]
+        },
+        {
+          "VoteId": "2b7f70cb-4187-4a7b-956d-a013f6faf697",
+          "PlayerNumber": 16,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 6
+            }
+          ]
+        },
+        {
+          "VoteId": "64f022e0-ccf6-4d2f-b839-263288f83ad0",
+          "PlayerNumber": 7,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "4e771baf-6c88-4f66-9675-04bddb65e55f",
+                "ActionDescription": "Imunizar"
+              },
+              "TargetPlayerNumber": 9
+            }
+          ]
+        },
+        {
+          "VoteId": "b29d23a5-11cc-4f68-8228-f87ce6e0514b",
+          "PlayerNumber": 13,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                "ActionDescription": "Sequestrar"
+              },
+              "TargetPlayerNumber": 4
+            }
+          ]
+        },
+        {
+          "VoteId": "315acb7a-2a78-4508-ae3d-6178d37e88da",
+          "PlayerNumber": 3,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 5
+            }
+          ]
+        },
+        {
+          "VoteId": "d5584028-4e54-4a07-9938-3a32dcabc5fa",
+          "PlayerNumber": 15,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                "ActionDescription": "Sequestrar"
+              },
+              "TargetPlayerNumber": 4
+            }
+          ]
+        },
+        {
+          "VoteId": "68b4882d-7329-4c1f-bb03-d56f3b2a513c",
+          "PlayerNumber": 4,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 15
+            }
+          ]
+        },
+        {
+          "VoteId": "14ba7e47-c21a-4438-b4c8-11848c81fc70",
+          "PlayerNumber": 22,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 7
+            }
+          ]
+        },
+        {
+          "VoteId": "24d0059b-8450-40ec-9fb4-5dcf6d3a8046",
+          "PlayerNumber": 1,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 7
+            }
+          ]
+        },
+        {
+          "VoteId": "824f94c1-240c-435c-bdc7-e3157d96c1fe",
+          "PlayerNumber": 9,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 3
+            }
+          ]
+        }
+      ],
+      "CreatedAt": "2026-06-20T22:53:37.8974542-03:00"
+    },
+    {
+      "GameId": "0c996cb1-2357-4ee1-ba29-e50c6bafe633",
+      "EventId": "364196a7-893b-4042-bbad-483402fbca1a",
+      "EventName": "Rodada 4",
+      "EventDescription": "Mafia prendeu o detetive",
+      "Votes": [
+        {
+          "VoteId": "004a5650-0164-40ae-9ac6-5fc3fed0f7eb",
+          "PlayerNumber": 17,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 1
+            }
+          ]
+        },
+        {
+          "VoteId": "060fff50-dad9-4ce9-9ccd-69f45b3bc7d3",
+          "PlayerNumber": 20,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 3
+            }
+          ]
+        },
+        {
+          "VoteId": "7c021f21-9c9d-4158-965a-66399989d3a8",
+          "PlayerNumber": 16,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 6
+            }
+          ]
+        },
+        {
+          "VoteId": "b8f41a85-4af7-43ed-ba67-1b8353afd9c8",
+          "PlayerNumber": 3,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 5
+            }
+          ]
+        },
+        {
+          "VoteId": "05161372-5b10-4456-8599-8b72444432bf",
+          "PlayerNumber": 5,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 1
+            }
+          ]
+        },
+        {
+          "VoteId": "8ca4912f-ff5d-48a2-962c-23af480fb15e",
+          "PlayerNumber": 6,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                "ActionDescription": "Sequestrar"
+              },
+              "TargetPlayerNumber": 18
+            }
+          ]
+        },
+        {
+          "VoteId": "a108f098-cf8c-4247-8be2-ad51a9aaf2ce",
+          "PlayerNumber": 13,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                "ActionDescription": "Sequestrar"
+              },
+              "TargetPlayerNumber": 18
+            }
+          ]
+        },
+        {
+          "VoteId": "7a9ab63d-546c-468d-b376-a215ebf31a35",
+          "PlayerNumber": 19,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 12
+            }
+          ]
+        },
+        {
+          "VoteId": "4998d52b-191a-40cd-ad0e-95fd88db36f7",
+          "PlayerNumber": 15,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                "ActionDescription": "Sequestrar"
+              },
+              "TargetPlayerNumber": 18
+            }
+          ]
+        },
+        {
+          "VoteId": "4b71d101-2216-4b0e-b762-a8d8cd9a4d56",
+          "PlayerNumber": 2,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 16
+            }
+          ]
+        },
+        {
+          "VoteId": "78618ce3-276a-4ea0-8d61-bc18e0e96aba",
+          "PlayerNumber": 1,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 7
+            }
+          ]
+        },
+        {
+          "VoteId": "7f6470d4-5617-47d6-aa19-5c78c9965f41",
+          "PlayerNumber": 7,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "4e771baf-6c88-4f66-9675-04bddb65e55f",
+                "ActionDescription": "Imunizar"
+              },
+              "TargetPlayerNumber": 3
+            },
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 15
+            }
+          ]
+        },
+        {
+          "VoteId": "fa342429-fd08-4fe9-b7ef-f5e49369b6ab",
+          "PlayerNumber": 9,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 13
+            }
+          ]
+        },
+        {
+          "VoteId": "5bd1f68d-38fb-42f9-9157-d447569b5d46",
+          "PlayerNumber": 18,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 16
+            }
+          ]
+        }
+      ],
+      "CreatedAt": "2026-06-20T23:04:12.2749794-03:00"
+    },
+    {
+      "GameId": "0c996cb1-2357-4ee1-ba29-e50c6bafe633",
+      "EventId": "6b7b6e0c-dec1-4355-9c3f-65bc50b067e5",
+      "EventName": "Rodada 5",
+      "EventDescription": "Mafia esta acertando todas",
+      "Votes": [
+        {
+          "VoteId": "95dbc601-57b5-4a04-8f84-0101f2181100",
+          "PlayerNumber": 5,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 7
+            }
+          ]
+        },
+        {
+          "VoteId": "5c4bfc74-9b75-4cde-a464-ea3156b9da3b",
+          "PlayerNumber": 19,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 5
+            }
+          ]
+        },
+        {
+          "VoteId": "8ef17ada-f156-4f6c-ba1c-86bac487b718",
+          "PlayerNumber": 17,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 5
+            }
+          ]
+        },
+        {
+          "VoteId": "ca993970-5dfc-46f8-8cff-f121d58ffc36",
+          "PlayerNumber": 6,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                "ActionDescription": "Sequestrar"
+              },
+              "TargetPlayerNumber": 3
+            }
+          ]
+        },
+        {
+          "VoteId": "4b933fd9-b72a-472e-968e-11335163694c",
+          "PlayerNumber": 7,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "fcdca984-4d38-4bd2-87a7-f77f0939116b",
+                "ActionDescription": "Resgatar"
+              },
+              "TargetPlayerNumber": 8
+            },
+            {
+              "Action": {
+                "ActionId": "4e771baf-6c88-4f66-9675-04bddb65e55f",
+                "ActionDescription": "Imunizar"
+              },
+              "TargetPlayerNumber": 2
+            }
+          ]
+        },
+        {
+          "VoteId": "53f46473-e3b6-4691-8f74-aa7b855fb9bc",
+          "PlayerNumber": 3,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 5
+            }
+          ]
+        },
+        {
+          "VoteId": "8f162073-1b87-44c2-8a92-c172a2cb0c59",
+          "PlayerNumber": 9,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 13
+            }
+          ]
+        },
+        {
+          "VoteId": "4ba4737c-e2b2-4903-af00-d8bb495dacdc",
+          "PlayerNumber": 13,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                "ActionDescription": "Sequestrar"
+              },
+              "TargetPlayerNumber": 3
+            }
+          ]
+        },
+        {
+          "VoteId": "bbdf6cac-9649-4aa4-b72a-23b77dc59507",
+          "PlayerNumber": 2,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 13
+            }
+          ]
+        },
+        {
+          "VoteId": "b5689859-b155-4f87-9ceb-114756608c52",
+          "PlayerNumber": 20,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 13
+            }
+          ]
+        },
+        {
+          "VoteId": "8c1e4b68-6b3c-4819-bdbd-4471302a2de2",
+          "PlayerNumber": 15,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                "ActionDescription": "Sequestrar"
+              },
+              "TargetPlayerNumber": 3
+            }
+          ]
+        }
+      ],
+      "CreatedAt": "2026-06-20T23:15:48.0486556-03:00"
+    },
+    {
+      "GameId": "0c996cb1-2357-4ee1-ba29-e50c6bafe633",
+      "EventId": "e3162c92-0296-446a-83fe-6286501557a9",
+      "EventName": "Rodada 6",
+      "EventDescription": "Anjo jogou muito",
+      "Votes": [
+        {
+          "VoteId": "30191c8d-cc96-48d0-965d-90e7a11d0e19",
+          "PlayerNumber": 19,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 7
+            }
+          ]
+        },
+        {
+          "VoteId": "9beed525-d20c-4eb6-98c1-9490d9c8515d",
+          "PlayerNumber": 8,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 15
+            }
+          ]
+        },
+        {
+          "VoteId": "6b9e4652-a32d-4ae8-8ec3-6c7e204aa99f",
+          "PlayerNumber": 17,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 2
+            }
+          ]
+        },
+        {
+          "VoteId": "a185f34a-98cf-45c5-997d-fe0bfbcaa413",
+          "PlayerNumber": 15,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                "ActionDescription": "Sequestrar"
+              },
+              "TargetPlayerNumber": 2
+            }
+          ]
+        },
+        {
+          "VoteId": "0b59addd-fc04-4e7a-a842-258b73c98242",
+          "PlayerNumber": 9,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 15
+            }
+          ]
+        },
+        {
+          "VoteId": "d92138b5-f43e-4f72-b7f1-5d4196756d86",
+          "PlayerNumber": 2,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 15
+            }
+          ]
+        },
+        {
+          "VoteId": "37ba2958-2b30-42de-918d-e33210bcad6a",
+          "PlayerNumber": 6,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                "ActionDescription": "Sequestrar"
+              },
+              "TargetPlayerNumber": 2
+            }
+          ]
+        },
+        {
+          "VoteId": "acd3310d-2eda-4873-b14d-c7a972d28161",
+          "PlayerNumber": 20,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 15
+            }
+          ]
+        },
+        {
+          "VoteId": "96be3685-9514-4fe4-b717-302637a32a4f",
+          "PlayerNumber": 7,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "4e771baf-6c88-4f66-9675-04bddb65e55f",
+                "ActionDescription": "Imunizar"
+              },
+              "TargetPlayerNumber": 2
+            },
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 15
+            }
+          ]
+        }
+      ],
+      "CreatedAt": "2026-06-20T23:24:35.8319532-03:00"
+    },
+    {
+      "GameId": "0c996cb1-2357-4ee1-ba29-e50c6bafe633",
+      "EventId": "2d1d8ece-0dbb-4d39-a3c5-0fc257016a2c",
+      "EventName": "Rodada 7",
+      "EventDescription": "Anjo jogou muito e Swat entrou no jogo",
+      "Votes": [
+        {
+          "VoteId": "9e6bbc64-6a9d-4b6a-87fd-0c0bc7bfd340",
+          "PlayerNumber": 19,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 6
+            }
+          ]
+        },
+        {
+          "VoteId": "ea65a83f-34fe-461a-be7d-54dca165fb05",
+          "PlayerNumber": 17,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 6
+            }
+          ]
+        },
+        {
+          "VoteId": "fbde080d-5559-4744-a612-130176577539",
+          "PlayerNumber": 7,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "4e771baf-6c88-4f66-9675-04bddb65e55f",
+                "ActionDescription": "Imunizar"
+              },
+              "TargetPlayerNumber": 2
+            },
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 6
+            }
+          ]
+        },
+        {
+          "VoteId": "aa1bbc52-5a73-4f84-a5d6-3976518e6e61",
+          "PlayerNumber": 9,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 6
+            }
+          ]
+        },
+        {
+          "VoteId": "834fb288-5f9a-4bed-9ac2-2586d219ac9d",
+          "PlayerNumber": 20,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 6
+            }
+          ]
+        },
+        {
+          "VoteId": "4a061a55-ddf3-4aed-bc00-d9a12f9f83ea",
+          "PlayerNumber": 8,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 6
+            }
+          ]
+        },
+        {
+          "VoteId": "a54e6163-7d5e-4138-873a-324b0ab10a26",
+          "PlayerNumber": 6,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+                "ActionDescription": "Sequestrar"
+              },
+              "TargetPlayerNumber": 17
+            }
+          ]
+        },
+        {
+          "VoteId": "2aef8318-289f-4ff1-aec1-7dc16ded91e0",
+          "PlayerNumber": 2,
+          "Actions": [
+            {
+              "Action": {
+                "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+                "ActionDescription": "Prender"
+              },
+              "TargetPlayerNumber": 6
+            }
+          ]
+        }
+      ],
+      "CreatedAt": "2026-06-20T23:34:33.8294413-03:00"
+    }
+  ],
   "Actions": [
     {
-      "ActionId": "371f8acf-9b93-426f-8f2e-2724e2b9cd0b",
+      "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
       "ActionDescription": "Prender"
     },
     {
-      "ActionId": "a64d5239-e82c-427e-922f-8e2a549812c1",
+      "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
       "ActionDescription": "Sequestrar"
     },
     {
-      "ActionId": "685a4ef4-c23e-4371-b4e9-45a69851a357",
+      "ActionId": "4e771baf-6c88-4f66-9675-04bddb65e55f",
       "ActionDescription": "Imunizar"
     },
     {
-      "ActionId": "51374c02-7f14-48bd-b2ed-9cd60d7dad5c",
+      "ActionId": "19bc745a-2fec-415f-b8d1-299b00043fa6",
       "ActionDescription": "Soltar"
     },
     {
-      "ActionId": "fd1d1898-4bba-411e-9004-ef54045ae3db",
+      "ActionId": "fcdca984-4d38-4bd2-87a7-f77f0939116b",
       "ActionDescription": "Resgatar"
     },
     {
-      "ActionId": "273dd120-aa43-469c-b83c-93a601a0d7bb",
+      "ActionId": "75de6fc5-6edc-45e5-a6ca-f98f2434bdd0",
       "ActionDescription": "Vingar"
     }
   ],
-  "Results": []
+  "Results": [
+    {
+      "EventId": "78124ccf-fef4-4887-9007-a1d066759cc1",
+      "VoteActionResults": [
+        {
+          "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+          "Standings": [
+            {
+              "Position": 1,
+              "PlayerNumber": 11,
+              "Votes": 5
+            },
+            {
+              "Position": 2,
+              "PlayerNumber": 13,
+              "Votes": 4
+            },
+            {
+              "Position": 3,
+              "PlayerNumber": 8,
+              "Votes": 2
+            },
+            {
+              "Position": 4,
+              "PlayerNumber": 20,
+              "Votes": 1
+            },
+            {
+              "Position": 5,
+              "PlayerNumber": 7,
+              "Votes": 1
+            },
+            {
+              "Position": 6,
+              "PlayerNumber": 10,
+              "Votes": 1
+            },
+            {
+              "Position": 7,
+              "PlayerNumber": 12,
+              "Votes": 1
+            }
+          ]
+        },
+        {
+          "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+          "Standings": [
+            {
+              "Position": 1,
+              "PlayerNumber": 8,
+              "Votes": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "EventId": "92cdc1fc-60cc-4b85-b79e-43b4c796614a",
+      "VoteActionResults": [
+        {
+          "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+          "Standings": [
+            {
+              "Position": 1,
+              "PlayerNumber": 10,
+              "Votes": 4
+            },
+            {
+              "Position": 2,
+              "PlayerNumber": 13,
+              "Votes": 2
+            },
+            {
+              "Position": 3,
+              "PlayerNumber": 7,
+              "Votes": 2
+            },
+            {
+              "Position": 4,
+              "PlayerNumber": 12,
+              "Votes": 2
+            },
+            {
+              "Position": 5,
+              "PlayerNumber": 15,
+              "Votes": 2
+            },
+            {
+              "Position": 6,
+              "PlayerNumber": 1,
+              "Votes": 2
+            },
+            {
+              "Position": 7,
+              "PlayerNumber": 18,
+              "Votes": 1
+            },
+            {
+              "Position": 8,
+              "PlayerNumber": 4,
+              "Votes": 1
+            }
+          ]
+        },
+        {
+          "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+          "Standings": [
+            {
+              "Position": 1,
+              "PlayerNumber": 12,
+              "Votes": 3
+            }
+          ]
+        },
+        {
+          "ActionId": "4e771baf-6c88-4f66-9675-04bddb65e55f",
+          "Standings": [
+            {
+              "Position": 1,
+              "PlayerNumber": 3,
+              "Votes": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "EventId": "17a82ee7-e2bc-4aae-80e0-ac553fa48ed6",
+      "VoteActionResults": [
+        {
+          "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+          "Standings": [
+            {
+              "Position": 1,
+              "PlayerNumber": 14,
+              "Votes": 3
+            },
+            {
+              "Position": 2,
+              "PlayerNumber": 15,
+              "Votes": 2
+            },
+            {
+              "Position": 3,
+              "PlayerNumber": 6,
+              "Votes": 2
+            },
+            {
+              "Position": 4,
+              "PlayerNumber": 7,
+              "Votes": 2
+            },
+            {
+              "Position": 5,
+              "PlayerNumber": 1,
+              "Votes": 1
+            },
+            {
+              "Position": 6,
+              "PlayerNumber": 11,
+              "Votes": 1
+            },
+            {
+              "Position": 7,
+              "PlayerNumber": 5,
+              "Votes": 1
+            },
+            {
+              "Position": 8,
+              "PlayerNumber": 3,
+              "Votes": 1
+            }
+          ]
+        },
+        {
+          "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+          "Standings": [
+            {
+              "Position": 1,
+              "PlayerNumber": 4,
+              "Votes": 3
+            }
+          ]
+        },
+        {
+          "ActionId": "4e771baf-6c88-4f66-9675-04bddb65e55f",
+          "Standings": [
+            {
+              "Position": 1,
+              "PlayerNumber": 9,
+              "Votes": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "EventId": "364196a7-893b-4042-bbad-483402fbca1a",
+      "VoteActionResults": [
+        {
+          "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+          "Standings": [
+            {
+              "Position": 1,
+              "PlayerNumber": 1,
+              "Votes": 2
+            },
+            {
+              "Position": 2,
+              "PlayerNumber": 16,
+              "Votes": 2
+            },
+            {
+              "Position": 3,
+              "PlayerNumber": 3,
+              "Votes": 1
+            },
+            {
+              "Position": 4,
+              "PlayerNumber": 6,
+              "Votes": 1
+            },
+            {
+              "Position": 5,
+              "PlayerNumber": 5,
+              "Votes": 1
+            },
+            {
+              "Position": 6,
+              "PlayerNumber": 12,
+              "Votes": 1
+            },
+            {
+              "Position": 7,
+              "PlayerNumber": 7,
+              "Votes": 1
+            },
+            {
+              "Position": 8,
+              "PlayerNumber": 15,
+              "Votes": 1
+            },
+            {
+              "Position": 9,
+              "PlayerNumber": 13,
+              "Votes": 1
+            }
+          ]
+        },
+        {
+          "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+          "Standings": [
+            {
+              "Position": 1,
+              "PlayerNumber": 18,
+              "Votes": 3
+            }
+          ]
+        },
+        {
+          "ActionId": "4e771baf-6c88-4f66-9675-04bddb65e55f",
+          "Standings": [
+            {
+              "Position": 1,
+              "PlayerNumber": 3,
+              "Votes": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "EventId": "6b7b6e0c-dec1-4355-9c3f-65bc50b067e5",
+      "VoteActionResults": [
+        {
+          "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+          "Standings": [
+            {
+              "Position": 1,
+              "PlayerNumber": 5,
+              "Votes": 3
+            },
+            {
+              "Position": 2,
+              "PlayerNumber": 13,
+              "Votes": 3
+            },
+            {
+              "Position": 3,
+              "PlayerNumber": 7,
+              "Votes": 1
+            }
+          ]
+        },
+        {
+          "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+          "Standings": [
+            {
+              "Position": 1,
+              "PlayerNumber": 3,
+              "Votes": 3
+            }
+          ]
+        },
+        {
+          "ActionId": "fcdca984-4d38-4bd2-87a7-f77f0939116b",
+          "Standings": [
+            {
+              "Position": 1,
+              "PlayerNumber": 8,
+              "Votes": 1
+            }
+          ]
+        },
+        {
+          "ActionId": "4e771baf-6c88-4f66-9675-04bddb65e55f",
+          "Standings": [
+            {
+              "Position": 1,
+              "PlayerNumber": 2,
+              "Votes": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "EventId": "e3162c92-0296-446a-83fe-6286501557a9",
+      "VoteActionResults": [
+        {
+          "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+          "Standings": [
+            {
+              "Position": 1,
+              "PlayerNumber": 15,
+              "Votes": 5
+            },
+            {
+              "Position": 2,
+              "PlayerNumber": 7,
+              "Votes": 1
+            },
+            {
+              "Position": 3,
+              "PlayerNumber": 2,
+              "Votes": 1
+            }
+          ]
+        },
+        {
+          "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+          "Standings": [
+            {
+              "Position": 1,
+              "PlayerNumber": 2,
+              "Votes": 2
+            }
+          ]
+        },
+        {
+          "ActionId": "4e771baf-6c88-4f66-9675-04bddb65e55f",
+          "Standings": [
+            {
+              "Position": 1,
+              "PlayerNumber": 2,
+              "Votes": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "EventId": "2d1d8ece-0dbb-4d39-a3c5-0fc257016a2c",
+      "VoteActionResults": [
+        {
+          "ActionId": "f3cd6c2d-9a60-47e0-b91b-7941b88a33b6",
+          "Standings": [
+            {
+              "Position": 1,
+              "PlayerNumber": 6,
+              "Votes": 7
+            }
+          ]
+        },
+        {
+          "ActionId": "4e771baf-6c88-4f66-9675-04bddb65e55f",
+          "Standings": [
+            {
+              "Position": 1,
+              "PlayerNumber": 2,
+              "Votes": 1
+            }
+          ]
+        },
+        {
+          "ActionId": "3d17b695-2270-40bc-935e-6a6461f8c0f0",
+          "Standings": [
+            {
+              "Position": 1,
+              "PlayerNumber": 17,
+              "Votes": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
