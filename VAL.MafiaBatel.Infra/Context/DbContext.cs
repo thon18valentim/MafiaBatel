@@ -19,15 +19,6 @@ namespace VAL.MafiaBatel.Infra.Context
         {
             GameManagement = new Game("Mafia Batel 2026");
 
-            RolesList =
-            [
-                new Role(1, "Máfia"),
-                new Role(2, "Polícia"),
-                new Role(3, "Justiceiro"),
-                new Role(4, "Anjo"),
-                new Role(5, "Detetive")
-            ];
-
             Actions = [
                 new Action("Prender"),
                 new Action("Sequestrar"),

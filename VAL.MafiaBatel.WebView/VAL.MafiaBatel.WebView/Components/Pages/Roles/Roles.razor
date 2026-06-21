@@ -2,16 +2,21 @@
 @using VAL.MafiaBatel.Domain.Models
 @using VAL.MafiaBatel.Domain.Interfaces
 @inject IRoleService RoleService
+@inject NavigationManager NavManager
+@rendermode InteractiveServer
 
 <PageTitle>Personagens</PageTitle>
 
 <h3>Personagens</h3>
 
-<table class="table table-striped">
+<button class="btn btn-primary" @onclick="AddNewRole">+ Novo Personagem</button>
+
+<table class="table-striped table">
     <thead>
         <tr>
             <th>Id</th>
             <th>Nome</th>
+            <th>Ações</th>
         </tr>
     </thead>
     <tbody>
@@ -20,6 +25,12 @@
             <tr>
                 <td>@role.RoleId</td>
                 <td>@role.RoleName</td>
+                <td>
+                    <button class="btn btn-sm btn-warning"
+                            @onclick="() => EditRole(role)">
+                        Editar
+                    </button>
+                </td>
             </tr>
         }
     </tbody>
@@ -31,5 +42,15 @@
     protected override async Task OnInitializedAsync()
     {
         roles = RoleService.GetRoles();
+    }
+
+    private void AddNewRole()
+    {
+        NavManager.NavigateTo("/roles/new");
+    }
+
+    private void EditRole(Role role)
+    {
+        NavManager.NavigateTo($"/roles/edit/{role.RoleId}");
     }
 }

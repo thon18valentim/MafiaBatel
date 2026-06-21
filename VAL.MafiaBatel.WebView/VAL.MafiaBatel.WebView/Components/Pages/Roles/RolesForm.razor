@@ -1,0 +1,66 @@
+﻿@page "/roles/new"
+@page "/roles/edit/{id:int}"
+@using VAL.MafiaBatel.Domain.Models
+@using VAL.MafiaBatel.Domain.Interfaces
+@inject IRoleService RoleService
+@inject NavigationManager NavManager
+@rendermode InteractiveServer
+
+<PageTitle>@(isNew ? "Adicionar Personagem" : "Editar Personagem")</PageTitle>
+
+<h3>@(isNew ? "Novo Personagem" : "Editar Personagem")</h3>
+
+<div class="form-container">
+    <div class="form-group">
+        <label>Nome</label>
+        <input type="text" @bind="roleName" class="form-control" />
+    </div>
+
+    <div class="form-actions">
+        <button class="btn btn-success" @onclick="Save">Salvar</button>
+        <button class="btn btn-secondary" @onclick="Cancel">Cancelar</button>
+    </div>
+</div>
+
+@code {
+    [Parameter] public int? id { get; set; }
+    private Role? currentRole = null;
+    private bool isNew => !id.HasValue;
+    private string roleName = "";
+    private List<Role> roles = new();
+
+    protected override void OnInitialized()
+    {
+        roles = RoleService.GetRoles();
+        if (!isNew)
+        {
+            currentRole = roles.FirstOrDefault(rl => rl.RoleId == id);
+            if (currentRole != null)
+            {
+                roleName = currentRole.RoleName;
+            }
+        }
+    }
+
+    private void Save()
+    {
+        if (isNew)
+        {
+            RoleService.AddRole(roleName);
+        }
+        else
+        {
+            if (currentRole != null)
+            {
+                currentRole.EditRoleName(roleName);
+            }
+        }
+
+        NavManager.NavigateTo("/roles");
+    }
+
+    private void Cancel()
+    {
+        NavManager.NavigateTo("/roles");
+    }
+}

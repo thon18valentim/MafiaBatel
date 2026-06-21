@@ -10,5 +10,17 @@ namespace VAL.MafiaBatel.Services
         {
             return dbContext.RolesList;
         }
+
+        public void AddRole(string roleName)
+        {
+            if (dbContext.RolesList.Any(r => r.RoleName == roleName))
+            {
+                return;
+            }
+
+            var nextId = dbContext.RolesList.Count + 1;
+            var role = new Role(nextId, roleName);
+            dbContext.RolesList.Add(role);
+        }
     }
 }

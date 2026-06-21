@@ -4,5 +4,10 @@
     {
         public int RoleId { get; private set; } = roleId;
         public string RoleName { get; private set; } = roleName;
+
+        public void EditRoleName(string roleName)
+        {
+            RoleName = roleName;
+        }
     }
 }

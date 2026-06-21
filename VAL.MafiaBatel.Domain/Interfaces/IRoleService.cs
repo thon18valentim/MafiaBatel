@@ -5,5 +5,6 @@ namespace VAL.MafiaBatel.Domain.Interfaces
     public interface IRoleService
     {
         List<Role> GetRoles();
+        void AddRole(string roleName);
     }
 }
