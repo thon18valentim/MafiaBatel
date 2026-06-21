@@ -17,6 +17,7 @@ builder.Services.AddScoped<IPlayerService, PlayerService>();
 builder.Services.AddScoped<IRoleService, RoleService>();
 builder.Services.AddScoped<IGameService, GameService>();
 builder.Services.AddScoped<IVotingService, VotingService>();
+builder.Services.AddScoped<IActionService, ActionService>();
 
 var app = builder.Build();
 

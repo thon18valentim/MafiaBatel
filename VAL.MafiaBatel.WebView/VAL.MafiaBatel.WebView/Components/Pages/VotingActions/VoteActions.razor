@@ -1,0 +1,56 @@
+﻿@page "/actions"
+@using VAL.MafiaBatel.Domain.Interfaces
+@using Action = VAL.MafiaBatel.Domain.Models.Action;
+@inject IActionService ActionService
+@inject NavigationManager NavManager
+@rendermode InteractiveServer
+
+<PageTitle>Ações de Voto</PageTitle>
+
+<h3>Ações de Voto</h3>
+
+<button class="btn btn-primary" @onclick="AddNewVoteAction">+ Nova Ação</button>
+
+<table class="table-striped table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Descrição</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var action in actions)
+        {
+            <tr>
+                <td>@action.ActionId</td>
+                <td>@action.ActionDescription</td>
+                <td>
+                    <button class="btn btn-sm btn-warning"
+                            @onclick="() => EditVoteAction(action)">
+                        Editar
+                    </button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    private List<Action> actions = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        actions = ActionService.GetActions();
+    }
+
+    private void AddNewVoteAction()
+    {
+        NavManager.NavigateTo("/actions/new");
+    }
+
+    private void EditVoteAction(Action action)
+    {
+        NavManager.NavigateTo($"/actions/edit/{action.ActionId}");
+    }
+}

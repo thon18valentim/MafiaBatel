@@ -1,0 +1,37 @@
+﻿@page "/actions/new"
+@using VAL.MafiaBatel.Domain.Interfaces
+@using Action = VAL.MafiaBatel.Domain.Models.Action;
+@rendermode InteractiveServer
+@inject IActionService ActionService
+@inject NavigationManager NavManager
+
+<PageTitle>Adicionar Ação de Voto</PageTitle>
+
+<h3>Nova Ação de Voto</h3>
+
+<div class="form-container">
+    <div class="form-group">
+        <label>Nome</label>
+        <input type="text" @bind="actionDescription" class="form-control" />
+    </div>
+
+    <div class="form-actions">
+        <button class="btn btn-success" @onclick="Save">Salvar</button>
+        <button class="btn btn-secondary" @onclick="Cancel">Cancelar</button>
+    </div>
+</div>
+
+@code {
+    private string actionDescription = "";
+
+    private void Save()
+    {
+        var action = new Action(actionDescription);
+        ActionService.AddAction(action);
+    }
+
+    private void Cancel()
+    {
+        NavManager.NavigateTo("/actions");
+    }
+}

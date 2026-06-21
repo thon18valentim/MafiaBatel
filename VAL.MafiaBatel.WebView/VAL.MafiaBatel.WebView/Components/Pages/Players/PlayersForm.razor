@@ -65,12 +65,16 @@
                 selectedRoleId = player.Role?.RoleId ?? 99;
             }
         }
+        else
+        {
+            selectedRoleId = 99;
+        }
     }
 
     private void Salvar()
     {
         player.UpdateInfo(playerName, playerNumber);
-        if (selectedRoleId == 0)
+        if (selectedRoleId == 99)
         {
             player.ResetRole();
         }
